@@ -1,0 +1,419 @@
+html {
+    background-color: #003b5c;
+}
+
+body {
+    background-color: #003b5c;
+}
+
+#menu {
+    padding: 0;
+    background-color: #fff;
+}
+
+#menu .container-fluid {
+    background-color: #fff;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.navbar-brand {
+    padding-left: 5rem !important;
+}
+
+.nav-item{
+    padding: 0 30px !important;
+}
+
+.menu-desktop {
+    float: right;
+
+}
+
+.icons-header{
+    font-size: 20px;
+    color: #003b5c;
+    
+}
+
+.link-header{
+    color: #003b5c !important;
+    font-size: 1rem;
+}
+
+
+/* nav.menu-desktop > div.container-fluid > div.collapse{
+    width: 260px;
+    display: block;
+    position: absolute;
+    z-index: 3000;
+    right: 0;
+    background-color: #000;
+    margin-top: 50px;
+} */
+
+.colapso {
+    background: #fff;
+    text-align: right !important;
+    margin-top: 60px;
+    position: absolute;
+    text-align: left !important;
+    right: 0 !important;
+    z-index: 3000;
+    width: 360px;
+    top: 0;
+}
+
+.option-menu-desktop {
+    padding: 0.25rem 1.5rem;
+    width: 100%;
+}
+
+.menu-lg {
+    border: 0;
+    background-color: transparent;
+}
+
+.widget {
+    background-color: #fff;
+}
+
+.comunicacion {
+    background-color: #e3e4e7;
+}
+
+.servicios{
+    background-image: url(../img/pleca-servicio.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0;
+    width: 100%;
+}
+
+.nuestros-servicios {
+    display: none;   
+}
+
+.banner-servicio{
+    width: 100%;
+}
+
+/* .pleca-servicios{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    height: 170px;
+    top: 800px;
+} */
+
+footer nav div ul {
+    background-color: #003b5c;
+}
+
+footer nav div ul li a {
+    color: #fff !important;
+    text-align: center;
+}
+
+footer div a{
+    color: #fff !important;
+}
+
+section div div ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #003b5c;
+}
+
+@media only screen and (min-width: 992px) {
+    .oculto {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .menu-desktop {
+        display: none;
+    }
+    .logo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .servicios{
+        background-image: none;
+    }
+    .nuestros-servicios{
+        display: block;
+        background-color: #30b0c7;
+        color: #fff;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+/**************Turismo************/
+.whatsapp{
+    width: 30px;
+}
+
+.btn-enviar{
+    width: 20%;
+    background-color: #003b5c;
+    color: #fff;
+    border: 1px solid #003b5c;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-enviar:hover{
+    background-color: #fff;
+    color: #003b5c;
+}
+
+.separador{
+    padding: 10px;
+    color: #003b5c;
+    background-color: #003b5c;
+}
+
+/*********Facturación********/
+.bg-facturacion{
+    background-color: #30b0c7;
+    color: #fff;
+}
+
+.bg-ingresar-datos{
+    background-color: #003b5c;
+    color: #fff;
+}
+
+.section-facturacion{
+    border: 2px solid #30b0c7;
+}
+
+.ingresar-datos{
+    border: 2px solid #003b5c;
+}
+
+.btn-consultar{
+    width: 20%;
+    background-color: #30b0c7;
+    color: #003b5c;
+    border: 1px solid #30b0c7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* TAQUILLAS */
+
+.color-almeacenses{
+    background-color: #003b5c;
+}
+
+.rounded-4{
+    border-radius: 10px;
+}
+
+.pb-dd-taquillas{
+    padding-bottom: 200px;
+}
+
+/*********Global***********/
+
+.bg-azul-ameal{
+    background-color: #003b5c;
+    color: #fff;
+}
+
+.text-ameal{
+    color:#003b5c;
+}
+
+/*******Combo ventas********/
+
+.bg-azulcl{
+    background: #25b0c9;
+}
+
+.outline-azulcl{
+    outline: 1px solid #25b0c9;
+}
+
+@media all and (min-width: 700px) {
+    .input-b-left{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .input-b-right{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .input-b-left-rigth{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+
+/******Consulta tarifas******/
+
+.rounded-50{
+    border-radius: 0.50rem !important;
+}
+.outline-azul{
+    outline: 1px solid #003b5c;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        width:100%;
+    }
+    thead {
+        display: none;
+    }
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tr td:nth-child(2) {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+    }
+}
+
+.border-ameal{
+    border-color: #003b5c
+}
+
+@font-face {
+    font-family: lucida black;
+    src: url("/../fonts/lucida-grande-black-italic.otf") format("opentype");
+    font-style: normal;
+}
+
+.consulta-aqui{
+    font-family: "lucida black";
+}
+
+/*********Facturación********/
+.bg-facturacion{
+    background-color: #30b0c7;
+    color: #fff;
+}
+
+.bg-ingresar-datos{
+    background-color: #003b5c;
+    color: #fff;
+}
+
+.section-facturacion{
+    border: 2px solid #30b0c7;
+}
+
+.ingresar-datos{
+    border: 2px solid #003b5c;
+}
+
+.btn-consultar{
+    width: 20%;
+    background-color: #30b0c7;
+    color: #003b5c;
+    border: 1px solid #30b0c7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/*boton*/
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,502 @@
+html {
+    background-color: #003b5c;
+}
+
+/* body {
+    background-color: #003b5c;
+} */
+
+#menu {
+    padding: 0;
+    background-color: #fff;
+}
+
+#menu .container-fluid {
+    background-color: #fff;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+
+}
+
+.navbar-brand {
+    padding-left: 5rem !important;
+}
+
+
+.navbar-toggler {
+    padding: 0.1rem 0.25rem !important;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-brand {
+        padding-left: 2rem !important;
+    }
+}
+
+.nav-item {
+    padding: 0 30px !important;
+}
+
+.menu-desktop {
+    float: right;
+
+}
+
+.icons-header {
+    font-size: 20px;
+    color: #003b5c;
+
+}
+
+.link-header {
+    color: #003b5c !important;
+    font-size: 1rem;
+}
+
+
+/* nav.menu-desktop > div.container-fluid > div.collapse{
+    width: 260px;
+    display: block;
+    position: absolute;
+    z-index: 3000;
+    right: 0;
+    background-color: #000;
+    margin-top: 50px;
+} */
+
+.colapso {
+    background: #eee;
+    color: #fff !important;
+    text-align: right !important;
+    margin-top: 60px;
+    position: absolute;
+    text-align: left !important;
+    right: 0 !important;
+    z-index: 3000;
+    width: 360px;
+    top: 0;
+}
+
+.option-menu-desktop:hover {
+    background-color: #30b0c7;
+    color: #fff;
+}
+
+.option-menu-desktop a.nav-link:hover {
+    background-color: #30b0c7;
+    color: #fff !important;
+}
+
+.option-menu-desktop {
+    padding: 0.25rem 1.5rem;
+    width: 100%;
+}
+
+.menu-lg {
+    border: 0;
+    background-color: transparent;
+}
+
+.widget {
+    background-color: #fff;
+}
+
+.comunicacion {
+    background-color: #fff;
+}
+
+.servicios {
+    background-image: url(../img/pleca-servicio.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0;
+    width: 100%;
+}
+
+.nuestros-servicios {
+    display: none;
+}
+
+.banner-servicio {
+    width: 100%;
+}
+
+/* .pleca-servicios{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    height: 170px;
+    top: 800px;
+} */
+
+footer nav div ul {
+    background-color: #003b5c;
+}
+
+footer nav div ul li a {
+    color: #fff !important;
+    text-align: center;
+    background-color: #003a5d;
+}
+
+footer div a {
+    color: #fff !important;
+}
+
+.telefono{
+    background-color: #003a5d;
+    padding: 0;
+}
+
+footer{
+    background-color: #003a5d;
+}
+section div div ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #003b5c;
+}
+
+@media only screen and (min-width: 992px) {
+    .oculto {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .menu-desktop {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .servicios {
+        background-image: none;
+    }
+
+    .nuestros-servicios {
+        display: block;
+        background-color: #30b0c7;
+        color: #fff;
+        vertical-align: middle;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+/**************Turismo************/
+.whatsapp {
+    width: 30px;
+}
+
+.btn-enviar {
+    width: 20%;
+    background-color: #003b5c;
+    color: #fff;
+    border: 1px solid #003b5c;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #fff;
+    color: #003b5c;
+}
+
+/* .separador {
+    padding: 10px;
+    color: #003b5c;
+    background-color: #003b5c;
+} */
+
+/*********Facturación********/
+.bg-facturacion {
+    background-color: #30b0c7;
+    color: #fff;
+}
+
+.bg-ingresar-datos {
+    background-color: #003b5c;
+    color: #fff;
+}
+
+.section-facturacion {
+    border: 2px solid #30b0c7;
+}
+
+.ingresar-datos {
+    border: 2px solid #003b5c;
+}
+
+.btn-consultar {
+    width: 20%;
+    background-color: #30b0c7;
+    color: #003b5c;
+    border: 1px solid #30b0c7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-consultar:hover {
+    background-color: #003b5c;
+    color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+    .btn-consultar {
+        width: 100%;
+    }
+}
+
+.combo {
+    width: 100%;
+    /* position: absolute; */
+    z-index: 200;
+}
+
+.carousel {
+    margin-top: 5px;
+}
+
+section.fondo {
+    background: #003a5d !important;
+    border: 0px solid #000;
+    height: auto;
+    /* position: absolute; */
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    section.fondo {
+        background: #003a5d !important;
+        border: 0px solid #000;
+        height: 350px;
+        position: absolute;
+        width: 100%;
+    }
+
+}
+
+.carousel-control-next-icon {
+    background-color: #30b0c7;
+    border-radius: 35px;
+    border: 4px solid #003b5c;
+    padding: 10%;
+    background-size: 15px !important;
+}
+
+.carousel-control-prev-icon {
+    background-color: #003b5c;
+    border-radius: 35px;
+    border: 4px solid #30b0c7;
+    padding: 10%;
+    background-size: 15px !important;
+
+}
+
+.btn-consulta-horarios {
+    background-color: #003a5d;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.btn-consulta-horarios:hover {
+    background-color: #fff;
+    color: #003a5d;
+    border: 2px solid #30b0c7;
+}
+
+/*********BOTON***************/
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 90%;
+    width: 90%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .btn-consulta-horarios {
+        width: 300px !important;
+    }
+}
+
+div {
+     --main-color: #003b5c;
+    --secondary-color: #30b0c7;
+}
+
+/* .bg{
+    background-color: var(--secondary-color);
+    padding: 10px;
+} */
+
+.titulo {
+    background-color: #003a5d;
+    border-radius: 10px;
+    color: #FFF;
+    border: 1px solid #fff;
+    padding: 0 30px;
+    width: 400px !important;
+    padding: 10px 0;
+}
+
+/* 
+div img{
+    border-radius: 50%;
+
+} */
+
+.ver-mas {
+    /* display: block;
+    margin: auto; */
+    background-color: #003a5d;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #003a5d;
+}
+
+.card {
+    /* border-radius: 10PX; */
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    width: 100%;
+    /* border-radius: 10px 10px 0 0; */
+}
+
+.shine {
+    height: 15px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    background-image: radial-gradient(farthest-side at 50% -50%, #003a5d, rgba(0, 0, 0, 0));
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .banner{
+    padding: 0 5px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, .5);
+}
+
+  @media screen and (max-width: 576px){
+    .titulo{
+        width: 100% !important;
+    }
+  }
+
+  .navbar-light .navbar-toggler{
+    border-color: #fff;
+  }
+  .navbar-toggler{
+    
+  }
+
+  .navbar-toggler-icon{
+    font-size: 20px;
+    border: 0 !important;
+    box-shadow: none;
+  }
+
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+

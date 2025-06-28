@@ -1,0 +1,20 @@
+{
+  "name": "Amealcenses",
+  "short_name": "Amealcenses",
+  "description": "Compra tus boletos de autobús y viaja con Amealcenses",
+  "background_color": "#fff",
+  "theme_color": "#003a5d",
+  "Orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-Mx",
+
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

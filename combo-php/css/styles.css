@@ -1,0 +1,274 @@
+html {
+    background-color: #003b5c;
+}
+
+body {
+    background-color: #003b5c;
+}
+
+#menu {
+    padding: 0;
+    background-color: #fff;
+}
+
+#menu .container-fluid {
+    background-color: #fff;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.navbar-brand {
+    padding-left: 5rem !important;
+}
+
+.nav-item{
+    padding: 0 30px !important;
+}
+
+.menu-desktop {
+    float: right;
+
+}
+
+.icons-header{
+    font-size: 20px;
+    color: #003b5c;
+    
+}
+
+.link-header{
+    color: #003b5c !important;
+    font-size: 1rem;
+}
+
+
+/* nav.menu-desktop > div.container-fluid > div.collapse{
+    width: 260px;
+    display: block;
+    position: absolute;
+    z-index: 3000;
+    right: 0;
+    background-color: #000;
+    margin-top: 50px;
+} */
+
+.colapso {
+    background: #eee;
+    color: #fff !important;
+    text-align: right !important;
+    margin-top: 60px;
+    position: absolute;
+    text-align: left !important;
+    right: 0 !important;
+    z-index: 3000;
+    width: 360px;
+    top: 0;
+}
+
+.option-menu-desktop:hover{
+    background-color: #30b0c7;
+    color: #fff;
+}
+
+.option-menu-desktop a.nav-link:hover{
+    background-color: #30b0c7;
+    color: #fff !important;
+}
+
+.option-menu-desktop {
+    padding: 0.25rem 1.5rem;
+    width: 100%;
+}
+
+.menu-lg {
+    border: 0;
+    background-color: transparent;
+}
+
+.widget {
+    background-color: #fff;
+}
+
+.comunicacion {
+    background-color: #e3e4e7;
+}
+
+.servicios{
+    background-image: url(../img/pleca-servicio.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0;
+    width: 100%;
+}
+
+.nuestros-servicios {
+    display: none;   
+}
+
+.banner-servicio{
+    width: 100%;
+}
+
+/* .pleca-servicios{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    height: 170px;
+    top: 800px;
+} */
+
+footer nav div ul {
+    background-color: #003b5c;
+}
+
+footer nav div ul li a {
+    color: #fff !important;
+    text-align: center;
+}
+
+footer div a{
+    color: #fff !important;
+}
+
+section div div ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #003b5c;
+}
+
+@media only screen and (min-width: 992px) {
+    .oculto {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .menu-desktop {
+        display: none;
+    }
+    .logo{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .servicios{
+        background-image: none;
+    }
+    .nuestros-servicios{
+        display: block;
+        background-color: #30b0c7;
+        color: #fff;
+        vertical-align: middle;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+/**************Turismo************/
+.whatsapp{
+    width: 30px;
+}
+
+.btn-enviar{
+    width: 20%;
+    background-color: #003b5c;
+    color: #fff;
+    border: 1px solid #003b5c;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-enviar:hover{
+    background-color: #fff;
+    color: #003b5c;
+}
+
+.separador{
+    padding: 10px;
+    color: #003b5c;
+    background-color: #003b5c;
+}
+
+/*********Facturación********/
+.bg-facturacion{
+    background-color: #30b0c7;
+    color: #fff;
+}
+
+.bg-ingresar-datos{
+    background-color: #003b5c;
+    color: #fff;
+}
+
+.section-facturacion{
+    border: 2px solid #30b0c7;
+}
+
+.ingresar-datos{
+    border: 2px solid #003b5c;
+}
+
+.btn-consultar{
+    width: 20%;
+    background-color: #30b0c7;
+    color: #003b5c;
+    border: 1px solid #30b0c7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-consultar:hover{
+    background-color: #003b5c;
+    color: #fff;
+}
+
+@media only screen and (max-width: 576px){
+    .btn-consultar{
+        width: 100%;
+    }
+}
+
+.combo{
+    width: 100%;
+     position: absolute;
+    z-index: 200;
+    height: 500px;
+}
+
+.carousel{
+     margin-top: 75px;
+}
+
+section.fondo {
+    background: #003a5d!important;
+    border: 0px solid #000;
+    height: auto;
+    /* position: absolute; */
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+section.fondo {
+    background: #003a5d!important;
+    border: 0px solid #000;
+    height: 350px;
+    position: absolute;
+    width: 100%;
+}
+
+}

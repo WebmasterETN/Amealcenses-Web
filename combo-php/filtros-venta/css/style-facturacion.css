@@ -1,0 +1,4439 @@
+/********************* AQUI COMIENZAN ESTILOS GENERALES *******************/
+ body{
+     font-size: 14px!important;
+     color: #123c5d!important;
+     font-family: "LatoWeb"!important;
+     background: #fff!important;
+}
+/* Webfont: Lato-Black */
+@font-face {
+     font-family: 'LatoWebBlack';
+     src: url('../fonts/Lato-Black.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Black.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Black.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Black.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-BlackItalic */
+@font-face {
+     font-family: 'LatoWebBlack';
+     src: url('../fonts/Lato-BlackItalic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-BlackItalic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-BlackItalic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-BlackItalic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Bold */
+@font-face {
+     font-family: 'LatoWebBold';
+     src: url('../fonts/Lato-Bold.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Bold.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Bold.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Bold.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-BoldItalic */
+@font-face {
+     font-family: 'LatoWebBold';
+     src: url('../fonts/Lato-BoldItalic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-BoldItalic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-BoldItalic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-BoldItalic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Hairline */
+@font-face {
+     font-family: 'LatoWebHairline';
+     src: url('../fonts/Lato-Hairline.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Hairline.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Hairline.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Hairline.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-HairlineItalic */
+@font-face {
+     font-family: 'LatoWebHairline';
+     src: url('../fonts/Lato-HairlineItalic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-HairlineItalic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-HairlineItalic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-HairlineItalic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Heavy */
+@font-face {
+     font-family: 'LatoWebHeavy';
+     src: url('../fonts/Lato-Heavy.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Heavy.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Heavy.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Heavy.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-HeavyItalic */
+@font-face {
+     font-family: 'LatoWebHeavy';
+     src: url('../fonts/Lato-HeavyItalic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-HeavyItalic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-HeavyItalic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-HeavyItalic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-HeavyItalic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Italic */
+@font-face {
+     font-family: 'LatoWeb';
+     src: url('../fonts/Lato-Italic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Italic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Italic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Italic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Light */
+@font-face {
+     font-family: 'LatoWebLight';
+     src: url('../fonts/Lato-Light.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Light.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Light.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Light.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-LightItalic */
+@font-face {
+     font-family: 'LatoWebLight';
+     src: url('../fonts/Lato-LightItalic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-LightItalic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-LightItalic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-LightItalic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Medium */
+@font-face {
+     font-family: 'LatoWebMedium';
+     src: url('../fonts/Lato-Medium.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Medium.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Medium.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Medium.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-MediumItalic */
+@font-face {
+     font-family: 'LatoWebMedium';
+     src: url('../fonts/Lato-MediumItalic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-MediumItalic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-MediumItalic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-MediumItalic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-MediumItalic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Regular */
+@font-face {
+     font-family: 'LatoWeb';
+     src: url('../fonts/Lato-Regular.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Regular.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Regular.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Regular.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Semibold */
+@font-face {
+     font-family: 'LatoWebSemibold';
+     src: url('../fonts/Lato-Semibold.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Semibold.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Semibold.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Semibold.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-SemiboldItalic */
+@font-face {
+     font-family: 'LatoWebSemibold';
+     src: url('../fonts/Lato-SemiboldItalic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-SemiboldItalic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-SemiboldItalic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-SemiboldItalic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Thin */
+@font-face {
+     font-family: 'LatoWebThin';
+     src: url('../fonts/Lato-Thin.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-Thin.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Thin.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-Thin.ttf') format('truetype');
+     font-style: normal;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-ThinItalic */
+@font-face {
+     font-family: 'LatoWebThin';
+     src: url('../fonts/Lato-ThinItalic.eot');
+    /* IE9 Compat Modes */
+     src: url('../fonts/Lato-ThinItalic.eot?#iefix') format('embedded-opentype'), 
+    /* IE6-IE8 */
+     url('../fonts/Lato-ThinItalic.woff2') format('woff2'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-ThinItalic.woff') format('woff'), 
+    /* Modern Browsers */
+     url('../fonts/Lato-ThinItalic.ttf') format('truetype');
+     font-style: italic;
+     font-weight: normal;
+     text-rendering: optimizeLegibility;
+}
+/********************* AQUI TERMINAN ESTILOS GENERALES *******************/
+/********************* AQUI COMIENZAN ESTILOS MENU Y FOOTER *******************/
+ .encabezado {
+     background: #eee;
+}
+ #menu {
+     margin: 0 auto !important;
+     padding: 0 !important;
+}
+ .primer-menu nav a img {
+     width: 260px;
+}
+ .navbar-brand {
+     padding-top: 0 !important;
+}
+ a.nav-link {
+     color: #003a5d !important;
+     font-weight: bold !important;
+}
+ .bg-light {
+     background-color: transparent !important;
+}
+ .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right: 5rem !important;
+     padding-left: 1rem !important;
+}
+ a.nav-link img.icon {
+     width: 18px;
+     margin-top: -3px;
+}
+ .dropdown-menu {
+     background: #eee;
+     font-size: 14px;
+}
+ .despliegue-menub a.submenu {
+     color: #fff !important;
+}
+ .btn {
+     display: inline-block;
+     font-weight: 400;
+     text-align: center;
+     white-space: nowrap;
+     vertical-align: middle;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     border: 1px solid transparent;
+     padding: .375rem .75rem;
+     font-size: 1.2rem;
+     line-height: 1.5;
+     border-radius: .25rem;
+     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ @media screen and (min-width: 2561px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 8.5rem !important;
+         padding-left: 7rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2560px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 8rem !important;
+         padding-left: 7rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2500px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 8rem !important;
+         padding-left: 6rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2427px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 7.5rem !important;
+         padding-left: 6rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2388px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 7rem !important;
+         padding-left: 6rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2353px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 6.5rem !important;
+         padding-left: 6rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2315px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 6rem !important;
+         padding-left: 6rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2276px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 5.5rem !important;
+         padding-left: 5.5rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2208px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 5.2rem !important;
+         padding-left: 5.2rem !important;
+         font-size: 18px;
+    }
+}
+ @media screen and (max-width: 2190px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 5.5rem !important;
+         padding-left: 5rem !important;
+         font-size: 17px;
+    }
+}
+ @media screen and (max-width: 2149px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 5.5rem !important;
+         padding-left: 5rem !important;
+         font-size: 17px;
+    }
+}
+ @media screen and (max-width: 2111px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 5rem !important;
+         padding-left: 5rem !important;
+         font-size: 17px;
+    }
+}
+ @media screen and (max-width: 2072px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 5rem !important;
+         padding-left: 5rem !important;
+         font-size: 16px;
+    }
+}
+ @media screen and (max-width: 2026px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 4.5rem !important;
+         padding-left: 4.5rem !important;
+         font-size: 16px;
+    }
+}
+ @media screen and (max-width: 1968px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 4rem !important;
+         padding-left: 4rem !important;
+         font-size: 16px;
+    }
+}
+ @media screen and (max-width: 1922px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 4rem !important;
+         padding-left: 4rem !important;
+         font-size: 15px;
+    }
+}
+ @media screen and (max-width: 1853px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 3.8rem !important;
+         padding-left: 4rem !important;
+         font-size: 14px;
+    }
+}
+ @media screen and (max-width: 1818px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 3rem !important;
+         padding-left: 3.5rem !important;
+         font-size: 14px;
+    }
+}
+ @media screen and (max-width: 1742px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 3rem !important;
+         padding-left: 3rem !important;
+         font-size: 14px;
+    }
+}
+ @media screen and (max-width: 1661px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 2.4rem !important;
+         padding-left: 2.4rem !important;
+         font-size: 14px;
+    }
+}
+ @media screen and (max-width: 1584px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 3rem !important;
+         padding-left: 2rem !important;
+    }
+}
+ @media screen and (max-width: 1552px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 2.7rem !important;
+         padding-left: 2rem !important;
+    }
+}
+ @media screen and (max-width: 1546px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 2.5rem !important;
+         padding-left: 1.6rem !important;
+    }
+}
+ @media screen and (max-width: 1480px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 3rem !important;
+         padding-left: 1.5rem !important;
+         font-size: 12px;
+    }
+}
+ @media screen and (max-width: 1416px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 2.8rem !important;
+         padding-left: 1.5rem !important;
+         font-size: 12px;
+    }
+}
+ @media screen and (max-width: 1409px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         font-size: 12px !important;
+         padding-right: 2.5rem !important;
+         padding-left: 1.2rem !important;
+    }
+}
+ @media screen and (max-width: 1380px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         font-size: 12px !important;
+         padding-right: 2.5rem !important;
+         padding-left: 1.2rem !important;
+    }
+}
+ @media screen and (max-width: 1356px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         font-size: 12px !important;
+         padding-right: 2.2rem !important;
+         padding-left: 1.2rem !important;
+    }
+}
+ @media screen and (max-width: 1347px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 2.5rem !important;
+         padding-left: .6rem !important;
+    }
+}
+ @media screen and (max-width: 1315px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 2rem !important;
+         padding-left: .6rem !important;
+    }
+}
+ @media screen and (max-width: 1288px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 2rem !important;
+         padding-left: .5rem !important;
+    }
+}
+ @media screen and (max-width: 1264px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 1.6rem !important;
+         padding-left: .5rem !important;
+    }
+}
+ @media screen and (max-width: 1255px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 1.8rem !important;
+         padding-left: .5rem !important;
+         font-size: 11px !important;
+    }
+}
+ @media screen and (max-width: 1216px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 1.7rem !important;
+         padding-left: .5rem !important;
+         font-size: 11px !important;
+    }
+}
+ @media screen and (max-width: 1206px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 1.8rem !important;
+         padding-left: .5rem !important;
+         font-size: 10px !important;
+    }
+}
+ @media screen and (max-width: 1168px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 1.7rem !important;
+         padding-left: .5rem !important;
+         font-size: 10px !important;
+    }
+}
+ @media screen and (max-width: 1160px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         font-size: 10px !important;
+         padding-right: 1rem !important;
+         padding-left: .5rem !important;
+    }
+}
+ @media screen and (max-width: 1110px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         font-size: 10px !important;
+         padding-right: .8rem !important;
+         padding-left: .4rem !important;
+    }
+}
+ a.nav-link img.icon {
+     width: 16px;
+}
+ @media screen and (max-width: 1095px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         font-size: 10px !important;
+         padding-right: .5rem !important;
+         padding-left: .5rem !important;
+    }
+     a.nav-link img.icon {
+         width: 12px;
+    }
+}
+ @media screen and (max-width: 1077px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         font-size: 11px !important;
+         padding-right: .5rem !important;
+         padding-left: .5rem !important;
+    }
+     .primer-menu nav a img {
+         width: 200px;
+    }
+     a.nav-link img.icon {
+         width: 14px;
+    }
+}
+ @media screen and (min-width: 992px) and (max-width: 1076px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         font-size: 10px !important;
+         padding-right: .8rem !important;
+         padding-left: .5rem !important;
+    }
+     .primer-menu nav a img {
+         width: 180px;
+    }
+     a.nav-link img.icon {
+         width: 14px;
+    }
+}
+ @media screen and (min-width: 992px) {
+     .menu-servicios {
+         display: none !important;
+    }
+     .opcion-oculta {
+         display: none !important;
+    }
+}
+ @media screen and (max-width: 991px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding: .5rem 1rem !important;
+         font-size: 14px !important;
+    }
+     .menu-servicios {
+         display: block !important;
+    }
+     .segundo-menu, .idioma {
+         display: none !important;
+    }
+}
+ .segundo-menu {
+     text-align: right !important;
+     padding: .6rem 0rem;
+     margin: 0 auto !important;
+     float: left;
+}
+ .btn-segundo-menu {
+     cursor: pointer !important;
+     border: 0px;
+     background: transparent;
+}
+ .btn-segundo-menu:focus {
+     outline: 0px;
+}
+ .despliegue {
+     background: #eee;
+     text-align: right !important;
+     margin-top: 60px;
+     left: 0px;
+     position: absolute;
+     text-align: left !important;
+     right: 0 !important;
+     z-index: 1000;
+}
+ .despliegue-menub {
+     background: #7ba7ae !important;
+     color: #fff !important;
+}
+ .despliegue-menub a.dropdown-item {
+     color: #fff !important;
+}
+ .opciones-menub {
+     display: block;
+     width: 100%;
+     padding: .25rem 1.5rem;
+     clear: both;
+     font-weight: 400;
+     color: #212529;
+     text-align: inherit;
+     white-space: nowrap;
+     background-color: transparent;
+     border: 0;
+}
+ .despliegue ul.navbar-nav li.opciones-menub a {
+     color: #003a5d;
+     font-weight: bold !important;
+     font-size: 12px;
+}
+ .despliegue-menub a.dropdown-item:hover {
+     color: #000 !important;
+}
+ .dropdown-item.active, .dropdown-item:active {
+     background-color: transparent;
+}
+ .btn-secondary {
+     color: #495057;
+     background-color: transparent;
+     border-color: #495057;
+}
+ .cambio-idioma {
+     text-align: center !important;
+     margin-top: 10px;
+}
+ .cambio-idioma img {
+     width: 50px !important;
+}
+ .idioma {
+     text-align: center;
+     margin: 0 auto !important;
+     float: right;
+     padding: .6rem 0rem;
+     margin-right: 30px !important;
+     font-size: 20PX;
+}
+ .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right: 4rem;
+     padding-left: .5rem;
+}
+ nav.active ul li.a a {
+     opacity: 1;
+     cursor: pointer;
+}
+ footer {
+     background: #eee;
+     margin-top: 10px;
+}
+ .menu-footer {
+     text-align: center !important;
+     margin: 0 auto !important;
+     margin-top: 30px !important;
+}
+ .menu-footer ul.navbar-nav li.nav-item a.nav-link {
+     color: #003a5d;
+     font-weight: bold;
+}
+ .redes-sociales {
+     margin: 0 auto;
+     text-align: center;
+}
+ .redes-sociales ul {
+     display: inline-flex;
+     list-style: none !important;
+     padding: 0;
+}
+ .redes-sociales ul li {
+     padding: 0 10px;
+}
+ .redes-sociales ul li a {
+     font-size: 40px;
+     color: #003a5d;
+}
+/************************************************************************** AQUI TERMINAN ESTILOS MENU Y FOOTER ******************************************/
+/*****************************INICIAN ESTILOS VENTA1 CORRIDAS **************************************/
+/***************ESTILOS VENTA1 CORRIDAS *************/
+ .contenedor-ventas {
+     background: #eee;
+     text-align: center !important;
+     margin-top: 10px;
+     padding-bottom: 10px;
+}
+ .filtros {
+     background: #fff;
+     padding: 10px;
+     border-radius: 8px;
+     margin-top: 10px;
+}
+ .opciones-filtros {
+     margin-left: 0 !important;
+     margin-right: 0 !important;
+}
+ img.img-filtros {
+     width: 24px;
+     margin-right: 2px;
+}
+ .sencillo {
+     text-align: center !important;
+}
+ .titulo-filtros {
+     font-size: 12px !important;
+     margin-top: 10px;
+}
+ h2 {
+     color: #123c5d;
+     font-size: 14px;
+     text-align: center;
+     font-weight: bold;
+}
+ .titulo-horarios {
+     margin-top: 30px;
+}
+ .switch-abierto {
+     text-align: center;
+}
+ p.boleto-abierto {
+     margin-bottom: 0 !important;
+}
+/* The switch - the box around the slider */
+ .switch {
+     position: relative;
+     display: inline-block;
+     width: 45px;
+     height: 24px;
+     margin-bottom: 0 !important;
+}
+/* Hide default HTML checkbox */
+ .switch input {
+     display: none;
+}
+/* The slider */
+ .slider {
+     position: absolute;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #ccc;
+     -webkit-transition: .4s;
+     transition: .4s;
+}
+ .slider:before {
+     position: absolute;
+     content: "";
+     height: 16px;
+     width: 16px;
+     left: 0px;
+     bottom: 4px;
+     background-color: #123c5d;
+     -webkit-transition: .4s;
+     transition: .4s;
+}
+ input:checked + .slider {
+     background-color: #7ba7ae !important;
+}
+ input:focus + .slider {
+     box-shadow: 0 0 1px #123c5d;
+}
+ input:checked + .slider:before {
+     -webkit-transform: translateX(26px);
+     -ms-transform: translateX(26px);
+     transform: translateX(26px);
+}
+/* Rounded sliders */
+ .slider.round {
+     border-radius: 10px;
+}
+ .slider.round:before {
+     border-radius: 50%;
+}
+ .form-check-input {
+     position: relative !important;
+     margin-left: 0 !important;
+     text-align: center;
+     margin: 0 auto !important;
+}
+ .texto-radio {
+     top: 20px;
+     position: relative;
+     text-align: center;
+}
+ .cc-selector input {
+     margin: 0;
+     padding: 0;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+}
+ .todosh {
+     background-image: url(../img/icons/24h.png);
+}
+ .mañana {
+     background-image: url(../img/icons/dia.png);
+}
+ .tarde {
+     background-image: url(../img/icons/tarde.png);
+}
+ .noche {
+     background-image: url(../img/icons/noche.png);
+}
+ .cc-selector input:active + .horarios-cc {
+     opacity: .9;
+}
+ .cc-selector input:checked + .horarios-cc {
+     -webkit-filter: none;
+     -moz-filter: none;
+     filter: none;
+}
+ .horarios-cc {
+     cursor: pointer;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: inline-block;
+     width: 50px;
+     height: 30px;
+     -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+     transition: all 100ms ease-in;
+     -webkit-filter: brightness(1.8) grayscale(1) opacity(.5);
+     -moz-filter: brightness(1.8) grayscale(1) opacity(.5);
+     filter: brightness(1.8) grayscale(1) opacity(.5);
+}
+ .horarios-cc:hover {
+     -webkit-filter: brightness(1.2) grayscale(.5) opacity(.7);
+     -moz-filter: brightness(1.2) grayscale(.5) opacity(.7);
+     filter: brightness(1.2) grayscale(.5) opacity(.7);
+}
+/* Extras */
+ a {
+     color: #444;
+     text-decoration: none;
+}
+ p {
+     margin-bottom: .3em;
+}
+ p.opciones-horarios {
+     margin-top: 30px !important;
+     text-align: center !important;
+}
+ input[type="number"] {
+     -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+     appearance: textfield;
+}
+ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+}
+ .number-input {
+     border: 2px solid #123c5d;
+     display: inline-flex;
+     border-radius: .3em;
+}
+ .number-input, .number-input * {
+     box-sizing: border-box;
+}
+ .number-input button {
+     outline: none;
+     -webkit-appearance: none;
+     background-color: transparent;
+     border: none;
+     align-items: center;
+     justify-content: center;
+     width: 1.5rem;
+     height: 1.8rem;
+     cursor: pointer;
+     margin: 0;
+     position: relative;
+}
+ .number-input button:after {
+     display: inline-block;
+     position: absolute;
+     content: '';
+     width: 1rem;
+     height: 2px;
+     background-color: #212121;
+     transform: translate(-50%, -50%);
+}
+ .number-input button:before {
+     display: inline-block;
+     position: absolute;
+     content: '';
+     width: 1rem;
+     height: 2px;
+     background-color: #212121;
+     transform: translate(-50%, -50%);
+}
+ .number-input button.plus:after {
+     transform: translate(-50%, -50%) rotate(90deg);
+}
+ .number-input input[type=number] {
+     font-family: sans-serif;
+     max-width: 2rem;
+     padding: .5rem;
+     border: solid #123c5d;
+     border-width: 0 2px;
+     font-size: 1rem;
+     height: 1.8rem;
+     font-weight: bold;
+     text-align: center;
+}
+ input::-webkit-input-placeholder {
+     color: #212529 !important;
+     text-align: center !important;
+}
+ input:-moz-placeholder {
+     color: #212529 !important;
+     text-align: center !important;
+}
+ input:-ms-input-placeholder {
+     color: #212529 !important;
+     text-align: center !important;
+}
+ .gj-datepicker {
+     height: 48px !important;
+}
+ .gj-datepicker-bootstrap [role=right-icon] button {
+     background: #fff !important;
+     color: #003a5d !important;
+}
+ .gj-datepicker-bootstrap [role=right-icon] button:hover {
+     background: #fff !important;
+     color: #003a5d !important;
+}
+ .btn-tooltip {
+     padding: 1px 6px;
+     font-size: 10px !important;
+     border: .1em solid #123c5d;
+     border-radius: 1em;
+}
+ .gj-datepicker-bootstrap [role=right-icon] button .gj-icon, .gj-datepicker-bootstrap [role=right-icon] button .material-icons {
+     top: 15px !important;
+}
+ .campo-combo {
+     color: #123c5d;
+     background-color: #e5e5e5;
+     font-size: 18px;
+     text-align: center;
+     text-align-last: center;
+}
+ select option {
+     text-align: center !important;
+     text-align-last: center !important;
+}
+ .contenedor-corridas {
+     margin-top: 5px;
+     padding-top: 10px;
+}
+ .cabecera-tabla-corridas {
+     background: #123c5d !important;
+     color: #fff !important;
+}
+ .contenedor-down-up-corridas {
+     float: right;
+     top: -55px;
+     position: relative;
+     right: 10px;
+}
+ .down-up {
+     background-image: url(../img/icons/up.png);
+}
+ .accordion {
+     cursor: pointer;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: inline-block;
+     -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+     transition: all 100ms ease-in;
+}
+ .form-check {
+     position: relative;
+     display: block;
+     padding-left: 0 !important;
+}
+/* ESTILOS RADIO CHECKBOX CORRIDAS */
+ .container {
+     display: block;
+     position: relative;
+     margin-bottom: 12px;
+     cursor: pointer;
+     font-size: 22px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+/* Hide the browser's default radio button */
+ .container input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+}
+/* Create a custom radio button */
+ .checkmark {
+     position: absolute;
+     top: -7px;
+     left: 42%;
+     height: 25px;
+     width: 25px;
+     background-color: #ddd;
+     border-radius: 50%;
+     line-height: 3.5;
+     border: 2px solid #003a5d !important;
+}
+ .modal-content {
+     text-align: justify;
+}
+/* On mouse-over, add a grey background color */
+ .container:hover input ~ .checkmark {
+     background-color: #ccc;
+}
+/* When the radio button is checked, add a blue background */
+ .container input:checked ~ .checkmark {
+     background-color: #123c5d;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+ .checkmark:after {
+     content: "";
+     position: absolute;
+     display: none;
+}
+/* Show the indicator (dot/circle) when checked */
+ .container input:checked ~ .checkmark:after {
+     display: block;
+}
+/* Style the indicator (dot/circle) */
+ .container .checkmark:after {
+     top: 6.5px;
+     left: 7px;
+     width: 8px;
+     height: 8px;
+     border-radius: 50%;
+     background: white;
+}
+/******** COMIENZAN ESTILOS DE CHECKBOX FILTROS*******/
+ .checkbox {
+     padding-left: 20px;
+}
+ .checkbox label {
+     display: inline-block;
+     vertical-align: middle;
+     position: relative;
+     padding-left: 5px;
+}
+ .checkbox label::before {
+     content: "";
+     display: inline-block;
+     position: absolute;
+     width: 17px;
+     height: 17px;
+     left: 0;
+     margin-left: -20px;
+     border: 1px solid #cccccc;
+     border-radius: 3px;
+     background-color: #fff;
+     -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+     -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+     transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+ .checkbox label::after {
+     display: inline-block;
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     left: 0;
+     top: 0;
+     margin-left: -20px;
+     padding-left: 3px;
+     padding-top: 1px;
+     font-size: 11px;
+     color: #555555;
+}
+ .checkbox input[type="checkbox"], .checkbox input[type="radio"] {
+     opacity: 0;
+     z-index: 1;
+}
+ .checkbox input[type="checkbox"]:focus + label::before, .checkbox input[type="radio"]:focus + label::before {
+     outline: thin dotted;
+     outline: 5px auto -webkit-focus-ring-color;
+     outline-offset: -2px;
+}
+ .checkbox input[type="checkbox"]:checked + label::after, .checkbox input[type="radio"]:checked + label::after {
+     font-family: "FontAwesome";
+     content: "\f00c";
+}
+ .checkbox input[type="checkbox"]:disabled + label, .checkbox input[type="radio"]:disabled + label {
+     opacity: 0.65;
+}
+ .checkbox input[type="checkbox"]:disabled + label::before, .checkbox input[type="radio"]:disabled + label::before {
+     background-color: #eeeeee;
+     cursor: not-allowed;
+}
+ .checkbox.checkbox-circle label::before {
+     border-radius: 50%;
+}
+ .checkbox.checkbox-inline {
+     margin-top: 0;
+}
+ .checkbox-primary input[type="checkbox"]:checked + label::before, .checkbox-primary input[type="radio"]:checked + label::before {
+     background-color: #337ab7;
+     border-color: #337ab7;
+}
+ .checkbox-primary input[type="checkbox"]:checked + label::after, .checkbox-primary input[type="radio"]:checked + label::after {
+     color: #fff;
+}
+ .checkbox-danger input[type="checkbox"]:checked + label::before, .checkbox-danger input[type="radio"]:checked + label::before {
+     background-color: #d9534f;
+     border-color: #d9534f;
+}
+ .checkbox-danger input[type="checkbox"]:checked + label::after, .checkbox-danger input[type="radio"]:checked + label::after {
+     color: #fff;
+}
+ .checkbox-info input[type="checkbox"]:checked + label::before, .checkbox-info input[type="radio"]:checked + label::before {
+     background-color: #5bc0de;
+     border-color: #5bc0de;
+}
+ .checkbox-info input[type="checkbox"]:checked + label::after, .checkbox-info input[type="radio"]:checked + label::after {
+     color: #fff;
+}
+ .checkbox-warning input[type="checkbox"]:checked + label::before, .checkbox-warning input[type="radio"]:checked + label::before {
+     background-color: #f0ad4e;
+     border-color: #f0ad4e;
+}
+ .checkbox-warning input[type="checkbox"]:checked + label::after, .checkbox-warning input[type="radio"]:checked + label::after {
+     color: #fff;
+}
+ .checkbox-success input[type="checkbox"]:checked + label::before, .checkbox-success input[type="radio"]:checked + label::before {
+     background-color: #5cb85c;
+     border-color: #5cb85c;
+}
+ .checkbox-success input[type="checkbox"]:checked + label::after, .checkbox-success input[type="radio"]:checked + label::after {
+     color: #fff;
+}
+ .checkbox.checkbox-sm label::before {
+     width: 30px;
+     height: 30px;
+     top: -13px;
+}
+ .checkbox.checkbox-sm label::after {
+     width: 30px;
+     height: 30px;
+     padding-left: 4px;
+     font-size: 20px;
+     left: 1px;
+     top: -13px;
+}
+ .checkbox.checkbox-sm label {
+     padding-left: 18px;
+     top: 13px;
+}
+ .checkbox.checkbox-md label::before {
+     width: 34px;
+     height: 34px;
+     top: -17px;
+}
+ .checkbox.checkbox-md label::after {
+     width: 34px;
+     height: 34px;
+     padding-left: 4px;
+     font-size: 24px;
+     left: 1px;
+     top: -18px;
+}
+ .checkbox.checkbox-md label {
+     padding-left: 22px;
+     top: 17px;
+}
+ .checkbox.checkbox-lg label::before {
+     width: 46px;
+     height: 46px;
+     top: -28px;
+}
+ .checkbox.checkbox-lg label::after {
+     width: 46px;
+     height: 46px;
+     padding-left: 4px;
+     font-size: 36px;
+     left: 1px;
+     top: -31px;
+}
+ .checkbox.checkbox-lg label {
+     padding-left: 34px;
+     top: 32px;
+}
+ .radio {
+     padding-left: 0px;
+}
+ .radio label {
+     display: inline-block;
+     vertical-align: middle;
+     position: relative;
+     padding-left: 5px;
+}
+ .radio label::before {
+     content: "";
+     display: inline-block;
+     position: absolute;
+     width: 17px;
+     height: 17px;
+     left: 0;
+     margin-left: -20px;
+     border: 1px solid #123c5d;
+     border-radius: 50%;
+     background-color: #fff;
+     -webkit-transition: border 0.15s ease-in-out;
+     -o-transition: border 0.15s ease-in-out;
+     transition: border 0.15s ease-in-out;
+}
+ .radio label::after {
+     display: inline-block;
+     position: absolute;
+     content: " ";
+     width: 11px;
+     height: 11px;
+     left: 3px;
+     top: 3px;
+     margin-left: -20px;
+     border-radius: 50%;
+     background-color: #555555;
+     -webkit-transform: scale(0, 0);
+     -ms-transform: scale(0, 0);
+     -o-transform: scale(0, 0);
+     transform: scale(0, 0);
+     -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+     -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+     -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+     transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+ .radio input[type="radio"] {
+     opacity: 0;
+     z-index: 1;
+}
+ .radio input[type="radio"]:focus + label::before {
+     outline: thin dotted;
+     outline: 5px auto -webkit-focus-ring-color;
+     outline-offset: -2px;
+}
+ .radio input[type="radio"]:checked + label::after {
+     -webkit-transform: scale(1, 1);
+     -ms-transform: scale(1, 1);
+     -o-transform: scale(1, 1);
+     transform: scale(1, 1);
+}
+ .radio input[type="radio"]:disabled + label {
+     opacity: 0.65;
+}
+ .radio input[type="radio"]:disabled + label::before {
+     cursor: not-allowed;
+}
+ .radio.radio-inline {
+     margin-top: 0;
+}
+ .radio-primary input[type="radio"] + label::after {
+     background-color: #123c5d;
+}
+ .radio-primary input[type="radio"]:checked + label::before {
+     border-color: #123c5d;
+}
+ .radio-primary input[type="radio"]:checked + label::after {
+     background-color: #123c5d;
+}
+ .radio-danger input[type="radio"] + label::after {
+     background-color: #d9534f;
+}
+ .radio-danger input[type="radio"]:checked + label::before {
+     border-color: #d9534f;
+}
+ .radio-danger input[type="radio"]:checked + label::after {
+     background-color: #d9534f;
+}
+ .radio-info input[type="radio"] + label::after {
+     background-color: #5bc0de;
+}
+ .radio-info input[type="radio"]:checked + label::before {
+     border-color: #5bc0de;
+}
+ .radio-info input[type="radio"]:checked + label::after {
+     background-color: #5bc0de;
+}
+ .radio-warning input[type="radio"] + label::after {
+     background-color: #f0ad4e;
+}
+ .radio-warning input[type="radio"]:checked + label::before {
+     border-color: #f0ad4e;
+}
+ .radio-warning input[type="radio"]:checked + label::after {
+     background-color: #f0ad4e;
+}
+ .radio-success input[type="radio"] + label::after {
+     background-color: #5cb85c;
+}
+ .radio-success input[type="radio"]:checked + label::before {
+     border-color: #5cb85c;
+}
+ .radio-success input[type="radio"]:checked + label::after {
+     background-color: #5cb85c;
+}
+ input[type="checkbox"].styled:checked + label:after, input[type="radio"].styled:checked + label:after {
+     font-family: 'FontAwesome';
+     content: "\f00c";
+}
+ input[type="checkbox"] .styled:checked + label::before, input[type="radio"] .styled:checked + label::before {
+     color: #fff;
+}
+ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styled:checked + label::after {
+     color: #fff;
+}
+ .radio.radio-sm label::before {
+     width: 30px;
+     height: 30px;
+     top: -13px;
+}
+ .radio.radio-sm label::after {
+     width: 22px;
+     height: 22px;
+     padding-left: 4px;
+     font-size: 20px;
+     left: 4px;
+     top: -9px;
+}
+ .radio.radio-sm label {
+     top: 13px;
+}
+ .radio.radio-md label::before {
+     width: 34px;
+     height: 34px;
+     top: -17px;
+}
+ .radio.radio-md label::after {
+     width: 26px;
+     height: 26px;
+     padding-left: 4px;
+     font-size: 24px;
+     left: 4px;
+     top: -13px;
+}
+ .radio.radio-md label {
+     padding-left: 22px;
+     top: 17px;
+}
+ .radio.radio-lg label::before {
+     width: 46px;
+     height: 46px;
+     top: -28px;
+}
+ .radio.radio-lg label::after {
+     width: 36px;
+     height: 36px;
+     padding-left: 4px;
+     font-size: 36px;
+     left: 5px;
+     top: -23px;
+}
+ .radio.radio-lg label {
+     padding-left: 34px;
+     top: 32px;
+}
+/******** TERMINAN ESTILOS DE CHECKBOX FILTROS*******/
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Unicode character for "plus" sign (+) */
+ .accordion-corridas:after {
+     content: url(../img/icons/down2.png) !important;
+     right: 0px !important!important;
+}
+/* Unicode character for "minus" sign (-) */
+ .accordion-corridas.active:after {
+     content: url(../img/icons/up.png) !important;
+}
+ .corridas {
+     border-radius: 8px;
+}
+/* Style the element that is used for the panel class */
+ div.panel {
+     padding: 0 18px;
+     background-color: white;
+     max-height: 0;
+     overflow: hidden;
+     transition: 0.4s ease-in-out;
+     opacity: 0;
+     margin-bottom: 10px;
+     margin: 0 auto !important;
+     width: 100%;
+}
+ div.panel.show {
+     opacity: 1;
+     max-height: 100% !important;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+     margin-bottom: 30px !important;
+}
+ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+     color: #123c5d;
+     border: 0px solid white;
+     border-radius: 0px;
+     box-shadow: 0 0 0 !important;
+     box-sizing: content-box;
+     text-align: center;
+     text-indent: 0 !important;
+     font-family: 'Courier New', Courier, monospace;
+     content: '▼';
+     background-color: transparent !important;
+}
+ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before {
+     content: '▲';
+}
+ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child {
+     position: relative;
+     padding-left: 10px !important;
+     cursor: pointer;
+}
+ .page-item.active .page-link {
+     z-index: 1;
+     color: #fff;
+     background-color: #123c5d;
+     border-color: #123c5d;
+}
+ .page-link {
+     position: relative;
+     display: block;
+     padding: 0.5rem 0.75rem;
+     margin-left: -1px;
+     line-height: 1.25;
+     color: #123c5d;
+     background-color: #fff;
+     border: 1px solid #dee2e6;
+}
+ .page-item:last-child .page-link {
+     border-top-right-radius: 0.25rem;
+     border-bottom-right-radius: 0.25rem;
+     color: #fff !important;
+     background-color: #7ba7ae !important;
+     border-color: #7ba7ae !important;
+}
+ .page-item:first-child .page-link {
+     margin-left: 0;
+     border-top-left-radius: 0.25rem;
+     border-bottom-left-radius: 0.25rem;
+     color: #fff !important;
+     background-color: #7ba7ae !important;
+     border-color: #7ba7ae !important;
+}
+ table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+     vertical-align: middle !important;
+}
+ .no-sort::after {
+     display: none !important;
+}
+ .no-sort::before {
+     display: none !important;
+}
+ .no-sort {
+     pointer-events: none !important;
+     cursor: default !important;
+}
+ table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > td.sorting {
+     padding: 0px 15px !important;
+}
+ .content-alerta {
+     background-color: rgb(123, 167, 174, 0.95);
+     color: #fff;
+     width: 120px;
+     z-index: 200;
+     top: 6px;
+     position: relative;
+     border-radius: 4px;
+     font-size: 10px;
+     white-space: normal;
+     margin: 0 auto !important;
+}
+ .page-item.active .page-link {
+     z-index: 1;
+     color: #fff;
+     background-color: #123c5d;
+     border-color: #123c5d;
+}
+ .modal-title {
+     text-align: center;
+     margin: 0 auto !important;
+}
+ .modal-header .close {
+     padding: 0;
+     margin: 0;
+}
+ .modal-header {
+     text-align: center !important;
+}
+ .modal-dialog {
+     max-width: 650px !important;
+     margin: 1.75rem auto;
+}
+ .btn-danger {
+     color: #fff;
+     background-color: #123c5d !important;
+     border-color: #123c5d !important;
+}
+ table.dataTable.nowrap th, table.dataTable.nowrap td {
+     white-space: nowrap;
+}
+ table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > td.sorting {
+     vertical-align: middle;
+}
+ .table-bordered th, .table-bordered td {
+     border: 0px;
+}
+ .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+     padding: 8px;
+     line-height: 1.42857143;
+     vertical-align: top;
+     border-bottom: 1px solid #003a5d !important;
+}
+ .modal {
+     z-index: 1072 !important;
+}
+ .btn-modal {
+     background-color: #123c5d;
+     color: #fff !important;
+     border-color: #123c5d;
+     font-size: 14px !important;
+}
+ .btn-modal:hover {
+     background-color: #123c5d;
+     color: #fff !important;
+     border-color: #123c5d;
+}
+ .contenedor-c-promocion {
+     margin-top: 40px;
+}
+ .selectores {
+     margin-top: 2px;
+}
+ @media screen and (max-width: 575px) {
+     .selectores {
+         margin-top: 10px;
+    }
+     .dataTables_info {
+         white-space: normal !important;
+    }
+}
+ @media screen and (min-width: 645px) and (max-width: 1143px) {
+     p.boleto-abierto {
+         font-size: 11px;
+    }
+}
+ @media screen and (min-width: 576px) and (max-width: 644px) {
+     p.boleto-abierto {
+         font-size: 9px;
+    }
+}
+ .imagen-chat {
+     position: fixed;
+     display:marker;
+     top: 70%;
+     z-index: 100;
+}
+ .imagen-chat img {
+     width: 60px;
+}
+ .contenedor-social {
+     text-align: right;
+}
+ .contenedor-phone {
+     text-align: left;
+}
+ @media screen and (max-width: 767px) {
+     .contenedor-social {
+         text-align: center;
+    }
+     .contenedor-phone {
+         text-align: center;
+    }
+}
+ .telefono {
+     font-size: 26px;
+     line-height: 2.2;
+}
+/*****************************TERMINAN ESTILOS VENTA1 CORRIDAS **************************************/
+/* ---------------------------------------------------------------------------------Estilos Body ----------------------------------------------------*/
+/* INICIO Yocelin*/
+ .contenedor-principal-vista5 {
+     background: #eee;
+     padding: 10px;
+     margin-top: 10px;
+}
+ .contenedor_1_vista5 {
+     background: #fff;
+     color: #123c5d;
+     font-size: 12px;
+     margin-top: 10px;
+     text-align: center;
+     width: 100%;
+     padding-top: 10px;
+     padding-bottom: 15px;
+     border-radius: 8px !important;
+}
+ .btn_facebook {
+     color: #123c5d;
+     font-size: 15px;
+     background: #fff;
+     border-bottom: 1px solid;
+     border-top: 1px solid;
+     border-left: 1px solid;
+     border-right: 1px solid;
+     margin-top: 15px;
+     width: 25%;
+     line-height: inherit;
+}
+ .btn_facebook:hover {
+     color: #fff;
+     font-size: 15px;
+     background: #123c5d;
+     border-bottom: 1px solid;
+     border-top: 1px solid;
+     border-left: 1px solid;
+     border-right: 1px solid;
+     width: 25%;
+}
+ .icono-face {
+     font-size: 20px;
+     float: right;
+}
+ .btn_guardar {
+     width: 25%;
+     color: #fff;
+     background: #123c5d;
+     margin-right: 20px;
+     border: #123c5d;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 2%;
+     line-height: inherit;
+}
+ .descargar {
+     width: 15px;
+     float: right;
+}
+ .btn_guardar:hover {
+     color: #123c5d;
+     background: #fff;
+     border: 1px solid;
+}
+ .btn_imprimir {
+     width: 25%;
+     color: #fff;
+     background: #123c5d;
+     margin-right: 20px;
+     border: #123c5d;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 2%;
+     line-height: inherit;
+}
+ .btn_imprimir:hover {
+     color: #123c5d;
+     background: #fff;
+     border: 1px solid;
+}
+ .imprimir {
+     width: 15px;
+     float: right;
+}
+ .contenedor-collapse-vista5 {
+     color: #123c5d;
+     background: #fff !important;
+     font-size: 14px;
+     margin-top: 10px;
+     width: 100%;
+     border-radius: 8px !important;
+     padding: 0 10px !important;
+}
+ .contenedor-collapse-2 {
+     color: #123c5d;
+     background: #fff !important;
+     font-size: 14px;
+     margin-top: 10px;
+     width: 100%;
+     margin-left: 10px;
+     margin-right: 43px;
+     border-radius: 8px !important;
+}
+ #negritas-vista5 {
+     font-weight: bold !important;
+}
+ #img-up {
+     float: left;
+     width: 25px;
+}
+ .contenedor_img {
+     margin-top: 10px;
+}
+ .img-fluid {
+     margin-top: 10px;
+     width: 100%;
+}
+ h6.datos-viaje-vista5 {
+     font-size: 16px;
+}
+ th {
+     font-size: 14px;
+}
+ .nombre-pasajero-vista5 {
+     text-align: left !important;
+}
+ td {
+     font-size: 14px;
+}
+ .letra-centrada-vista5 {
+     text-align: center !important;
+}
+ table.width200, table.rwd_auto {
+     border: 0px solid #ccc;
+     width: 98%;
+     margin: 30px 0 23px 0;
+}
+ .width200 th, .rwd_auto th {
+     background: #eee;
+     padding: 5px;
+     text-align: left;
+     font-size: 16px !important;
+}
+ .width200 td, .rwd_auto td {
+     border-bottom: 0px solid #ccc;
+     padding: 5px;
+     text-align: left 
+}
+ .width200 tr:last-child td, .rwd_auto tr:last-child td {
+     border: 0 
+}
+ .rwd {
+     width: 100%;
+     overflow: auto;
+}
+ .rwd table.rwd_auto {
+     width: auto;
+     min-width: 100% 
+}
+ .rwd_auto th, .rwd_auto td {
+     white-space: nowrap;
+}
+ @media only screen and (max-width: 760px), (min-width: 760px) and (max-width: 1024px) {
+     table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr {
+         display: block;
+    }
+     .width200 thead tr {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+     .width200 tr {
+         border: 1px solid #ccc;
+    }
+     .width200 td {
+         border: none;
+         border-bottom: 1px solid #ccc;
+         position: relative;
+         padding-left: 50%;
+         text-align: left 
+    }
+     .width200 td:before {
+         position: absolute;
+         top: 6px;
+         left: 6px;
+         width: 45%;
+         padding-right: 10px;
+         white-space: nowrap;
+    }
+     .vista5 td:nth-of-type(1):before {
+         content: "NOMBRE DEL PASAJERO";
+    }
+     .vista5 td:nth-of-type(2):before {
+         content: "PASAJERO";
+    }
+     .vista5 td:nth-of-type(3):before {
+         content: "ASIENTO";
+    }
+     .vista5 td:nth-of-type(4):before {
+         content: "PRECIO";
+    }
+     .vista5 td:nth-of-type(5):before {
+         content: "IVA";
+    }
+     .vista5 td:nth-of-type(6):before {
+         content: "DESCUENTO";
+    }
+     .vista5 td:nth-of-type(7):before {
+         content: "TOTAL";
+    }
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-width : 320px) and (max-width : 480px) {
+     .descarto {
+         display: none;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+ @media only screen and (min-width: 760px) and (max-width: 1024px) {
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+ @media screen and (max-width: 993px) {
+     th {
+         font-size: 11px !important;
+    }
+     td {
+         font-size: 11px !important;
+    }
+}
+ @media screen and (max-width: 614px) {
+     .contenedor-collapse {
+         font-size: 10px;
+    }
+     .contenedor-collapse-2 {
+         font-size: 10px;
+    }
+}
+ @media screen and (max-width: 712px) {
+     .contenedor-collapse {
+         font-size: 12px;
+    }
+}
+ @media screen and (max-width: 836px) {
+     .btn_facebook {
+         width: 80%;
+         margin-right: 15px;
+    }
+     .btn_guardar {
+         width: 80%;
+    }
+     .btn_imprimir {
+         width: 80%;
+    }
+}
+ @media screen and (max-width: 1026px) {
+     .letra-centrada-vista5 {
+         text-align: left !important;
+    }
+}
+/**************************************** ESTILOS DE MOSTRAR / OCULTAR ********************************/
+ .contenedor-down-up-vista5 {
+     float: right;
+     top: -25px;
+     position: relative;
+     right: 10px;
+}
+ .down-up {
+     background-image: url(../img/icons/up.png);
+}
+ .accordion {
+     cursor: pointer;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: inline-block;
+     -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+     transition: all 100ms ease-in;
+}
+/* Style the element that is used to open and close the accordion class */
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Unicode character for "plus" sign (+) */
+ .accordion:after {
+     content: url(../img/icons/down2-sm.png);
+     right: 0px !important;
+}
+/* Unicode character for "minus" sign (-) */
+ .accordion.active:after {
+     content: url(../img/icons/up-sm.png);
+}
+/* Style the element that is used for the panel class */
+ div.panel {
+     padding: 0 18px;
+     background-color: white;
+     max-height: 0;
+     overflow: hidden;
+     transition: 0.4s ease-in-out;
+     opacity: 0;
+     margin-bottom: 10px;
+     margin: 0 auto !important;
+     width: 100%;
+}
+ div.panel.show {
+     opacity: 1;
+     max-height: 100% !important;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+     margin-bottom: 30px !important;
+}
+/*********************************************************************FIN Yocelin**********************************************************************/
+/**********************************************************************estilos SOL vista2*********************************************************************/
+ h1.cumple-tus-datos {
+     font-size: 18px !important;
+     padding-top: 4px;
+     margin-top: 5px;
+     text-align: center;
+}
+ h2.precios {
+     font-size: 16px;
+     font-weight: bold;
+}
+ h5.viaje {
+     font-size: 14px;
+}
+ h6.datos-viaje {
+     font-size: 12px;
+}
+ table.width200, table.rwd_auto {
+     border: 0px solid #eee;
+     width: 98%;
+     margin: 30px 0 23px 0;
+}
+ .width200 th, .rwd_auto th {
+     background: #eee;
+     padding: 5px;
+     text-align: left;
+     font-size: 12px;
+}
+ .width200 td, .rwd_auto td {
+     border-bottom: 0px solid #ccc;
+     padding: 5px;
+     text-align: left 
+}
+ .width200 tr:last-child td, .rwd_auto tr:last-child td {
+     border: 0 
+}
+ .rwd {
+     width: 100%;
+     overflow: auto;
+}
+ .rwd table.rwd_auto {
+     width: auto;
+     min-width: 100% 
+}
+ .rwd_auto th, .rwd_auto td {
+     white-space: nowrap;
+}
+ @media only screen and (max-width: 760px), (min-width: 760px) and (max-width: 1024px) {
+     table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr {
+         display: block;
+    }
+     .width200 thead tr {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+     .width200 tr {
+         border: 1px solid #ccc;
+    }
+     .width200 td {
+         border: none;
+         border-bottom: 1px solid #ccc;
+         position: relative;
+         padding-left: 50%;
+         text-align: left 
+    }
+     .width200 td:before {
+         position: absolute;
+         top: 6px;
+         left: 6px;
+         width: 45%;
+         padding-right: 10px;
+         white-space: nowrap;
+    }
+     .vista2 td:nth-of-type(1):before {
+         content: "ADULTO";
+    }
+     .vista2 td:nth-of-type(2):before {
+         content: "MENOR";
+    }
+     .vista2 td:nth-of-type(3):before {
+         content: "INAPAM";
+    }
+     .vista2 td:nth-of-type(4):before {
+         content: "PCD";
+    }
+     .vista2 td:nth-of-type(5):before {
+         content: "ESTUDIANTE";
+    }
+     .vista2 td:nth-of-type(6):before {
+         content: "PROFESOR";
+    }
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-width : 320px) and (max-width : 480px) {
+     .descarto {
+         display: none;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+ @media only screen and (min-width: 760px) and (max-width: 1024px) {
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+ .letra-centrada {
+     text-align: center !important;
+}
+ .formulario {
+     background: #eee !important;
+     color: #123c5d;
+     font-size: 14px;
+     margin-top: 10px !important;
+     padding-bottom: 10px;
+}
+ .pestaña {
+     width: 50%;
+     margin: 0 auto !important;
+}
+ .contenedor1-vista2 {
+     background: #fff;
+     margin: 10px 0 !important;
+     padding-bottom: 22px;
+     border-radius: .8rem;
+}
+ .formulario .nav-link {
+     color: #fff !important;
+     height: 54px;
+     text-align: center !important;
+     background: #88a5ab;
+}
+ .formulario .nav-link.active {
+     background-color: #123c5d;
+}
+ .datos-vista3 {
+     display: inline-block;
+     margin-bottom: .5rem;
+     margin-top: 8px;
+}
+ .l-pequeñas-vista2 {
+     color: #dc3545 !important;
+     text-align: right !important;
+     font-size: 10px;
+     margin-right: 40px;
+}
+ .btn-continuar-vista2 {
+     color: #fff;
+     background: #123c5d;
+     margin: 0 auto;
+     width: 300px;
+     height: 42px;
+     font-size: 17px;
+     border: 1px solid #123c5d;
+     line-height: inherit;
+     margin-top: 30px;
+}
+ .flecha {
+     font-size: 30px;
+     float: right;
+     width: 25px;
+}
+ .ejemplo {
+     background: #eee;
+     font-size: 14px;
+     line-height: 2.5;
+     display: block;
+     margin: 0 auto !important;
+     width: 100%;
+     padding: 0.375rem 1.75rem;
+     border: 2px solid #ced4da;
+     border-radius: 0.25rem;
+     text-align-last: left;
+}
+ .overflow-checkbox .overflow-control-input {
+     display: none;
+}
+ .overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator::after {
+     transform: rotateZ(45deg) scale(1);
+     top: -6px;
+     left: 5px;
+}
+ .overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator::before {
+     opacity: 1;
+}
+ .overflow-checkbox .overflow-control-indicator {
+     border-radius: 3px;
+     display: inline-block;
+     position: absolute;
+     top: 4px;
+     left: 0;
+     width: 16px;
+     height: 16px;
+     border: 2px solid #aaa;
+}
+ .overflow-checkbox .overflow-control-indicator::after {
+     content: '';
+     display: block;
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     transition: 0.3s;
+     transform: rotateZ(90deg) scale(0);
+     width: 10px;
+     border-bottom: 4px solid #aaa;
+     border-right: 4px solid #aaa;
+     border-radius: 3px;
+     top: -2px;
+     left: 2px;
+}
+ .overflow-checkbox .overflow-control-indicator::before {
+     content: '';
+     display: block;
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     transition: 0.3s;
+     width: 10px;
+     border-right: 7px solid #fff;
+     border-radius: 3px;
+     transform: rotateZ(45deg) scale(1);
+     top: -4px;
+     left: 5px;
+     opacity: 0;
+}
+/*segundo contenedor*/
+ .encabezado2-vista2 {
+     background: #fff;
+     border-radius: 0 0 8px 8px;
+     margin-top: -9px;
+     padding-bottom: 15px;
+}
+ #titulo-pasos {
+     float: left;
+     margin-right: 10px;
+     line-height: 4;
+     margin-left: 10px;
+     font-size: 14px;
+}
+ #titulo-tiempo {
+     float: right;
+     margin-right: 10px;
+     line-height: 4;
+     font-size: 14px;
+}
+ figure#reloj {
+     float: right;
+     margin-right: 10px !important;
+     margin-bottom: 0 !important;
+     line-height: 4;
+     font-size: 14px;
+}
+ .icono-reloj {
+     width: 30px;
+     margin-top: 0px;
+}
+ .cabecera-acceso1 {
+     padding-right: 0 !important;
+}
+ .cabecera-acceso2 {
+     padding-left: 0 !important;
+}
+ .contenedor-usuario-logueado {
+     background: #123c5d;
+     margin-bottom: 1% !important;
+     margin-top: 10px;
+     color: #fff !important;
+     font-size: 13px;
+     font-weight: bolder;
+     overflow: hidden;
+     border-radius: 0px 8px 0 0 !important;
+     height: 50px;
+     padding: 2px;
+}
+ .contenedor-usuario-logueado h3 {
+     color: #fff !important;
+     font-size: 12px;
+     margin-left: 2px;
+     line-height: 1.5;
+     text-align: center;
+}
+ .contenedor-usuario-logueado h3#nombre-login {
+     font-size: 14px;
+     font-weight: bold;
+     text-align: center;
+}
+ .contenedor-btn-editar {
+     text-align: center !important;
+}
+ .btn-editar-vista2 {
+     color: #123c5d;
+     background: #fff;
+     border: #123c5d;
+     margin: 0 auto;
+     width: 300px;
+     height: 42px;
+     font-size: 17px;
+     border: 1px solid #123c5d;
+     line-height: inherit;
+}
+ .icono-editar {
+     float: right;
+     line-height: 4;
+     width: 10%;
+}
+ #negritas {
+     font-weight: bold !important;
+}
+ .datos-vista2 {
+     display: inline-block;
+     margin-bottom: .5rem;
+     margin-top: 8px;
+}
+/*media query*/
+ @media screen and (max-width: 925px) {
+     .btn-continuar-vista2 {
+         width: 250px;
+         font-size: 17px;
+    }
+}
+ @media screen and (max-width: 795px) {
+     .btn-continuar-vista2 {
+         width: 200px;
+         font-size: 15px;
+    }
+}
+ @media screen and (max-width: 767px) {
+     .btn-continuar-vista2 {
+         width: 300px;
+         font-size: 17px;
+    }
+}
+ @media screen and (max-width: 400px) {
+     .btn-continuar-vista2 {
+         width: 200px;
+         font-size: 15px;
+    }
+}
+ @media screen and (max-width: 755px) {
+     .btn-editar-vista2 {
+         width: 200px;
+         font-size: 15px;
+    }
+}
+ .encabezado {
+     background: #eee;
+}
+ h1.cumple-tus-datos {
+     font-size: 18px !important;
+     padding-top: 4px;
+     margin-top: 5px;
+     text-align: center;
+}
+ h2.precios {
+     font-size: 16px;
+     font-weight: bold;
+}
+ h5.viaje {
+     font-size: 14px;
+}
+ h6.datos-viaje {
+     font-size: 12px;
+}
+ .letra-centrada {
+     text-align: center !important;
+}
+/****************************************************************VISTA 3 SOL***************************************************************/
+ table.width200, table.rwd_auto {
+     border: 0px solid #eee;
+     width: 98%;
+     margin: 30px 0 23px 0;
+}
+ .width200 th, .rwd_auto th {
+     background: #eee;
+     padding: 5px;
+     text-align: center;
+     font-weight: normal;
+     font-size: 11px;
+}
+ .width200 td, .rwd_auto td {
+     border-bottom: 0px solid #ccc;
+     padding: 5px;
+     text-align: left 
+}
+ .width200 tr:last-child td, .rwd_auto tr:last-child td {
+     border: 0;
+     text-align: center;
+}
+ .rwd {
+     width: 100%;
+     overflow: auto;
+}
+ .rwd table.rwd_auto {
+     width: auto;
+     min-width: 100% 
+}
+ .rwd_auto th, .rwd_auto td {
+     white-space: nowrap;
+}
+ @media only screen and (max-width: 760px), (min-width: 760px) and (max-width: 1024px) {
+     table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr {
+         display: block;
+    }
+     .width200 thead tr {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+     .width200 tr {
+         border: 1px solid #ccc;
+    }
+     .width200 td {
+         border: none;
+         border-bottom: 1px solid #ccc;
+         position: relative;
+         padding-left: 50%;
+         text-align: left 
+    }
+     .width200 td:before {
+         position: absolute;
+         top: 6px;
+         left: 6px;
+         width: 45%;
+         padding-right: 10px;
+         white-space: nowrap;
+    }
+     .vista3 td:nth-of-type(1):before {
+         content: "ADULTO";
+    }
+     .vista3 td:nth-of-type(2):before {
+         content: "MENOR";
+    }
+     .vista3 td:nth-of-type(3):before {
+         content: "INAPAM";
+    }
+     .vista3 td:nth-of-type(4):before {
+         content: "PCD";
+    }
+     .vista3 td:nth-of-type(5):before {
+         content: "ESTUDIANTE";
+    }
+     .vista3 td:nth-of-type(6):before {
+         content: "PROFESOR";
+    }
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-width : 320px) and (max-width : 480px) {
+     .descarto {
+         display: none;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+ @media only screen and (min-width: 760px) and (max-width: 1024px) {
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+ @media only screen and (min-width: 1025px) and (max-width: 1130px) {
+     .width200 th, .rwd_auto th {
+         font-size: 9px;
+    }
+}
+ @media only screen and (min-width: 991px) and (max-width: 1195px) {
+     .vista3 thead tr th {
+         font-size: 10px !important;
+    }
+     .vista3 tbody tr td {
+         font-size: 10px !important;
+    }
+}
+/*****************TERMINAN ESTILOS DE CSS3 **************************/
+ .contenedor-elegir-asientos {
+     background: #eee !important;
+}
+ h1.datos-viaje-vista3 {
+     font-size: 20px !important;
+     padding-top: 4px;
+     margin-top: 5px;
+     font-weight: bold;
+}
+ h2.viaje-ida-vista3 {
+     font-size: 15px;
+     font-weight: bold;
+}
+ h3 {
+     font-size: 14px;
+}
+ .contenedor-general {
+     background: #fff;
+     margin-top: 5px;
+}
+ .formulario {
+     background: #e5e5e5;
+     color: #123c5d;
+     font-size: 14px;
+}
+ .pestaña {
+     color: #123c5d;
+     font-size: 14px;
+     width: 50%;
+     margin: 0 auto !important;
+}
+ .ingrese-datos {
+     background: #292b2c;
+}
+ .contenedor-autobus {
+     background: #fff;
+     margin-top: 10px !important;
+     padding-bottom: 22px;
+     border-radius: .8px !important;
+}
+ .nav-tabs .nav-link {
+     border: 1px solid transparent;
+     border-top-left-radius: .8px !important;
+     border-top-right-radius: .8px !important;
+     color: #fff !important;
+     padding: .8rem 1.4rem !important;
+     height: 54px;
+     text-align: center !important;
+     background: #88a5ab;
+     border-radius: 8px 8px 0 0 !important;
+}
+ .nav-tabs .nav-link.active {
+     color: #495057;
+     background-color: #123c5d;
+     border-color: #cbcbcb #cbcbcb #fff;
+}
+ .contenedor-datos {
+     text-align: center;
+     font-size: 19px;
+     font-weight: 600;
+     color: #123c5d;
+     margin-top: 30px;
+     border-radius: .8px !important;
+}
+ .formulario2 {
+     color: #123c5d;
+     font-size: 14px;
+     margin-top: 2%;
+}
+ .l-pequeñas-vista3 {
+     color: #dc3545 !important;
+     text-align: right !important;
+     font-size: 11px;
+}
+ .flecha {
+     margin-left: 40px;
+     font-size: 22px;
+}
+ .select-pasajeros {
+     margin-left: 0px !important;
+     margin-right: 0px !important;
+     margin-bottom: 20px;
+}
+ .contenedor {
+     background: #fff;
+     border-radius: 8px !important;
+}
+ .ejemplo-vista2 {
+     background: #eee;
+     font-size: 14px !important;
+     line-height: 2.5;
+     display: block;
+     margin: 0 auto !important;
+     width: 100%;
+     padding: 0.375rem 1.75rem;
+     border: 2px solid #ced4da;
+     border-radius: .8px !important;
+}
+ #obligatorio {
+     font-size: 12px;
+}
+ .overflow-checkbox .overflow-control-input {
+     display: none;
+}
+ .overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator::after {
+     transform: rotateZ(45deg) scale(1);
+     top: -6px;
+     left: 5px;
+}
+ .overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator::before {
+     opacity: 1;
+}
+ .overflow-checkbox .overflow-control-indicator {
+     border-radius: 3px;
+     display: inline-block;
+     position: absolute;
+     top: 18px;
+     left: -4px;
+     width: 16px;
+     height: 16px;
+     border: 2px solid #aaa;
+}
+ .overflow-checkbox .overflow-control-indicator::after {
+     content: '';
+     display: block;
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     transition: 0.3s;
+     transform: rotateZ(90deg) scale(0);
+     width: 10px;
+     border-bottom: 4px solid #aaa;
+     border-right: 4px solid #aaa;
+     border-radius: 3px;
+     top: -2px;
+     left: 2px;
+}
+ .overflow-checkbox .overflow-control-indicator::before {
+     content: '';
+     display: block;
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     transition: 0.3s;
+     width: 10px;
+     border-right: 7px solid #fff;
+     border-radius: 3px;
+     transform: rotateZ(45deg) scale(1);
+     top: -4px;
+     left: 5px;
+     opacity: 0;
+}
+/*segundo contenedor*/
+ .encabezado2 {
+     background: #fff;
+     margin: -1px !important;
+     padding-bottom: 8px !important;
+     border-radius: .8px !important;
+}
+ #paso-reloj {
+     background: #88a5ab !important;
+     margin-bottom: 1% !important;
+     margin-top: 10px;
+     color: #fff !important;
+     font-size: 13px;
+     font-weight: bolder;
+     overflow: hidden;
+     border-radius: 8px 8px 0 0 !important;
+     height: 50px;
+}
+ #titulo-pasos {
+     float: left;
+     margin-right: 10px;
+     line-height: 3;
+     margin-left: 10px;
+     font-size: 14px;
+}
+ #titulo-tiempo {
+     float: right;
+     margin-right: 10px;
+     line-height: 3;
+     font-size: 14px;
+}
+ figure#reloj {
+     float: right;
+     margin-right: 10px !important;
+     margin-bottom: 0 !important;
+     line-height: 3;
+     font-size: 14px;
+}
+ .pasos-datos2 {
+     background: #fff;
+     text-align: center !important;
+     font-size: 19px !important;
+     font-weight: 500 !important;
+}
+ .tipo-pasajero {
+     font-size: 13px !important;
+     padding-right: 30px;
+     padding-left: 24px;
+}
+ .datos {
+     background: #fff;
+     font-size: 13px !important;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+ #total {
+     float: right;
+     margin-bottom: 10px;
+     font-size: 25px;
+     margin-top: 0px;
+}
+ .btn-editar-vista3 {
+     color: #123c5d;
+     background: #fff;
+     border: #123c5d;
+     text-align: center;
+     width: 40%;
+     margin-left: 30%;
+     font-size: 17px;
+     border: 1px solid #123c5d;
+}
+ .icono-editar {
+     float: right;
+     margin-right: 40px;
+     line-height: 4;
+     width: 10%;
+}
+ .btn-regresar {
+     color: #ffff;
+     background: #123c5d;
+     border: #123c5d;
+     text-align: center;
+     width: 40%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     font-size: 20px;
+}
+ .flecha-regresar {
+     margin-right: 40px;
+     font-size: 23px;
+}
+ #negritas-vista3 {
+     font-weight: bold !important;
+}
+ hr {
+     border-top: 1px solid #eee;
+     margin: 20px 0;
+     display: block;
+     margin-top: 0.5em;
+     margin-bottom: 0.5em;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: solid;
+     border-width: 2px;
+     color: #ced4da;
+     width: 90%;
+}
+/*media query*/
+ @media screen and (max-width: 2560px) {
+}
+/*ESTILOS ENCABEZADO3 ELEGIR ASIENTO */
+ .encabezado3 {
+     margin: 15px !important;
+     padding-bottom: 8px !important;
+}
+ .datos-viaje-elegasiento {
+     padding-left: 0;
+     padding-bottom: 10px;
+     font-size: 15px !important;
+     font-weight: bold !important;
+     text-align: left;
+     color: #123c5d;
+}
+ .titulo-autobus {
+     font-size: 18px;
+     text-align: center;
+     margin-top: 20px;
+}
+ #pasos-asiento-1 {
+     background: #fff;
+     color: #123c5d;
+     text-align: center !important;
+     font-size: 19px !important;
+     font-weight: 500 !important;
+     border-radius: .8rem;
+     margin-left: 0 auto;
+}
+ .tipo-pasajero-2 {
+     font-size: 13px !important;
+     padding-right: 128px;
+     padding-left: 1px;
+     color: #123c5d;
+}
+ .elegir-asiento {
+     padding: 0px;
+}
+ .formulario1 {
+     background: #e5e5e5;
+     color: #123c5d;
+     font-size: 15px;
+}
+ .dato-viaje {
+     text-align: center !important;
+     font-size: 19px !important;
+     font-weight: 500 !important;
+}
+ .btn-editar-2 {
+     color: #123c5d;
+     background: #fff;
+     text-align: center;
+     width: 60%;
+     font-size: 15px;
+     border: 1px solid #123c5d;
+     margin-top: 20px;
+}
+ .icono-editar-2 {
+     margin-right: 0 auto;
+     line-height: 4;
+     width: 30px;
+}
+ .asiento-total {
+     background: #fff;
+     text-align: center;
+}
+ #total2 {
+     font-size: 18px;
+     color: #123c5d;
+}
+ table {
+     border-collapse: collapse;
+     text-align: center;
+     font-size: 11px;
+}
+ .datos-generales-viaje-vista3 {
+     font-size: 12px;
+}
+ .pasajero1-vista3 {
+     border-radius: 0 0 8px 8px !important;
+}
+ .pasajero2-vista3 {
+     border-radius: 8px 8px 0 0 !important;
+}
+ .accordion-vista3 {
+     top: -35px !important;
+}
+ .smb tbody tr td {
+     border: 0 !important;
+}
+ h5.tipos-pasajeros {
+     font-size: 15px;
+}
+ th.letra-centrada-vista3 {
+     text-align: inherit;
+     font-size: 12px !important;
+     font-weight: 600;
+     padding: 0 5px;
+     background: #e5e5e5;
+}
+ #negritas2.vista3 {
+     font-weight: bold !important;
+     color: #123c5d;
+     font-size: 17px;
+}
+ .contenedor-esquema {
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+}
+/*FORMULARIO ELEGIR ASIENTO*/
+ .btn-tooltip {
+     padding: 1px 6px;
+     font-size: 10px !important;
+     border: .1em solid #123c5d;
+     border-radius: 1em;
+     margin-left: 5px;
+}
+ .cont-abordaje {
+     padding-bottom: 11px;
+}
+ .btn-cobertura {
+     color: #fff;
+     background: #123c5d;
+     width: 100%;
+     font-size: 12px !important;
+     margin: 0 auto !important;
+}
+ .btn-cobertura-1 {
+     color: #fff;
+     background: #123c5d;
+     width: 100%;
+     font-size: 15px !important;
+     margin: 0 auto !important;
+}
+ #obligatorio-abordaje-1 {
+     font-size: 15px;
+}
+ #paso-reloj-abordaje {
+     background: #88a5ab !important;
+     margin-top: 10px;
+     color: #fff !important;
+     font-size: 13px;
+     font-weight: bolder;
+     overflow: hidden;
+     border-radius: 8px 8px 0 0;
+}
+ h6.nombre-pasajeros {
+     font-size: 1rem;
+     text-align: center;
+     color: #123c5d;
+     font-weight: 400;
+     margin-bottom: 4px;
+}
+ h7 {
+     color: #123c5d;
+     font-size: 13px;
+}
+ h8 {
+     color: #123c5d;
+     font-size: 12px;
+}
+ .btn-editar-abordaje {
+     width: 100%;
+     margin-bottom: 10px;
+     margin-top: 20px;
+     color: #123c5d;
+     border: 1px solid #123c5d;
+     background: #fff;
+     font-size: 17px;
+     border-radius: 8px;
+}
+ .icono-editar-abordaje {
+     float: right;
+     margin-right: 10px;
+     line-height: 4;
+     width: 30px;
+}
+ .cam-editar {
+     text-align: center;
+}
+ #obligatorio-abordaje {
+     font-size: 14px;
+     color: #123c5d;
+     vertical-align: sub;
+}
+ .asistencia-medica {
+     padding-left: 0 !important;
+     padding-right: 0 !important;
+     margin-top: 10px;
+}
+ .medica {
+     background: #e5e5e5;
+     padding-bottom: 8px;
+     border-radius: 8px 8px 8px 8px;
+     padding: 0 5px;
+     padding-left: 15px;
+     padding: 6px;
+     margin-top: 20px;
+}
+ .medica2 {
+     margin-top: 30px;
+     padding: 8px !important;
+}
+ .medica-2 {
+     background: #e5e5e5;
+     padding-bottom: 8px;
+     border-radius: 8px 8px 8px 8px;
+}
+ .btn-cobertura-seleccion {
+     color: #123c5d;
+     background: #e5e5e5;
+     width: 98%;
+     margin: 0 auto !important;
+     font-size: 14px !important;
+     padding-right: 0px;
+}
+ .custom-control {
+     min-height: 0;
+}
+ .elegir {
+     font-size: 15px !important;
+     padding-left: 0;
+     padding-right: 0;
+     margin-top: 10px;
+}
+ .formulario-abordaje {
+     margin-bottom: 4rem;
+     color: #123c5d;
+     text-align: left;
+}
+ input::-webkit-input-placeholder {
+     color: #212529 !important;
+}
+ input:-moz-placeholder {
+     color: #212529 !important;
+}
+ input:-ms-input-placeholder {
+     color: #212529 !important;
+}
+ .btn-eliminar {
+     color: #123c5d;
+     background: #e5e5e5;
+     width: 100%;
+     font-size: 12px;
+     margin: 0 auto !important;
+     border: 1px solid #123c5d;
+}
+ .btn-guardar {
+     color: #fff;
+     background: #123c5d;
+     width: 100%;
+     font-size: 12px;
+     margin: 0 auto !important;
+}
+ .btn-guardelim {
+     margin-bottom: 12px;
+     margin-top: 12px;
+}
+ .agregar {
+     background: #e5e5e5;
+     padding-bottom: 20px;
+}
+ .btn-agregar {
+     color: #123c5d;
+     background: #fff;
+     width: 98%;
+     font-size: 16px;
+     margin: 0 auto !important;
+     border: 1px solid #123c5d;
+     padding-bottom: 10px;
+     border-radius: 8px;
+}
+ .btn-regresar1 {
+     color: #ffff;
+     background: #123c5d;
+     border: #123c5d;
+     text-align: center;
+     width: 300px;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     font-size: 20px;
+}
+ .btn-continuar1 {
+     color: #ffff;
+     background: #123c5d;
+     border: #123c5d;
+     text-align: center;
+     width: 300px;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     font-size: 20px;
+}
+ .botones-abajo {
+     text-align: center;
+}
+/*media querys */
+ @media screen and (max-width: 1000px) {
+     .icono-editar {
+         float: right;
+         margin-right: 26px;
+         line-height: 4;
+         width: 10%;
+    }
+     .btn-editar {
+         width: 40%;
+         margin-left: 30%;
+         margin-bottom: 3px;
+    }
+}
+ @media screen and (max-width: 960px) {
+}
+ @media screen and (max-width: 760px) {
+     .flecha {
+         margin-left: 36px;
+         margin-top: 0px;
+         font-size: 20px;
+    }
+     .btn-editar-vista3 {
+         width: 40%;
+         margin-left: 32%;
+         font-size: 15px;
+         margin-bottom: 30px;
+    }
+     .icono-editar {
+         float: right;
+         margin-right: 0px;
+         line-height: 4;
+         width: 14%;
+         margin-bottom: 9px;
+    }
+     #total {
+         float: right;
+         margin-bottom: 40px;
+         font-size: 23px;
+         margin-top: 7px;
+    }
+     .contenedor-autobus {
+         padding-bottom: 10px;
+    }
+}
+/* ESTILOS ASIENTOS */
+ .datos-a {
+     height: auto !important;
+     position: relative !important;
+}
+ .table-responsive {
+     overflow: visible;
+     border: 0px solid #ddd;
+     height: 740px;
+}
+ .table-responsive > .table {
+     margin-bottom: 0;
+}
+ tbody {
+     border-color: inherit;
+     display: table-row-group;
+     vertical-align: middle;
+     width: 100% !important;
+}
+ .table tbody tr {
+     background: transparent none repeat scroll 0 0;
+}
+ .table-responsive tr {
+     display: inline-block;
+}
+ .table.smb > tbody > tr > td {
+     border-top: 0px;
+}
+ .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
+     white-space: nowrap;
+}
+ .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+     padding: 8px;
+     line-height: 1.42857143;
+     vertical-align: top;
+     border-top: 1px solid #ddd;
+}
+ .asientos2 {
+     margin: 20px auto;
+     padding: 0;
+     width: 305px !important;
+     min-height: 210px;
+     list-style-type: none;
+     position: relative;
+}
+ .asientos2 li {
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+     font-size: .850em;
+     text-align: center;
+     line-height: 36px;
+     color: #fff;
+     text-shadow: 0 1px 0 #333;
+     padding-right: 5px;
+    /* background: url(../images/asiento-disponible.png) no-repeat;
+     */
+     font-family: "OpenSansBold";
+     font-weight: normal;
+}
+ .numeracion.asiento {
+     position: inherit;
+     top: 0px;
+     left: 28px;
+     color: #000;
+}
+ .asientos2 li.row-1 {
+     top: 184px;
+}
+ .asientos2 li.col-1 {
+     left: 30px;
+}
+ .asientos2 li.col-2 {
+     left: 74px;
+}
+ .asientos2 li.col-3 {
+     left: 204px;
+}
+ .asientos2 li.row-2 {
+     top: 240px;
+}
+ .asientos2 li.row-3 {
+     top: 60px;
+}
+ .asientos2 li.col-4 {
+     left: 48px;
+}
+ .asientos2 li.col-5 {
+     left: 160px;
+}
+ .asientos2 li.col-6 {
+     left: 207px;
+}
+ .asientos2 li.col-7 {
+     left: 48px;
+}
+ .asientos2 li.col-8 {
+     left: 160px;
+}
+ .asientos2 li.col-9 {
+     left: 207px;
+}
+ .asientos2 li.row-14 {
+     top: 130px;
+}
+ .asientos2 li.row-15 {
+     top: 190px;
+}
+ .asientos2 li.row-16 {
+     top: 250px;
+}
+ .asientos2 li.row-17 {
+     top: 310px;
+}
+ .asientos2 li.row-18 {
+     top: 370px;
+}
+ .asientos2 li.row-19 {
+     top: 430px;
+}
+ .asientos2 li.row-20 {
+     top: 490px;
+}
+ .asientos2 li.row-21 {
+     top: 550px;
+}
+ .asientos2 li.row-4 {
+     top: 115px;
+}
+ .asientos2 li.row-5 {
+     top: 170px;
+}
+ .asientos2 li.row-6 {
+     top: 225px;
+}
+ .asientos2 li.row-7 {
+     top: 280px;
+}
+ .asientos2 li.row-8 {
+     top: 335px;
+}
+ .asientos2 li.row-9 {
+     top: 390px;
+}
+ .asientos2 li.row-10 {
+     top: 445px;
+}
+ .asientos2 li.row-11 {
+     top: 500px;
+}
+ .asientos2 li.row-12 {
+     top: 555px;
+}
+ .asientos2 li.row-13 {
+     top: 610px;
+}
+ .camion {
+     margin-bottom: 20px;
+     width: 100%;
+     height: 740px;
+     background: url(../img/icons/esquema-autobus-piso1.png) no-repeat center 0px;
+}
+ .bus2 {
+     margin-bottom: 20px;
+     width: 100%;
+     height: 740px;
+     background: url(../img/icons/esquema-autobus-piso2.png) no-repeat center 0px;
+}
+ .bus3 {
+     margin-bottom: 20px;
+     width: 100%;
+     height: 740px;
+     background: url(../img/icons/esquema-autobus-un-piso.png) no-repeat center 0px;
+}
+ h2.titulo-cliente {
+     text-align: center;
+     color: #123c5d;
+     margin: 0 auto;
+     font-size: 14px;
+}
+/**************************************** ESTILOS DE MOSTRAR / OCULTAR ********************************/
+ .contenedor-down-up {
+     float: right;
+     top: -40px;
+     position: relative;
+     right: 10px;
+}
+ .down-up {
+     background-image: url(../img/icons/up.png);
+}
+ .accordion {
+     cursor: pointer;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: inline-block;
+     -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+     transition: all 100ms ease-in;
+}
+/* Style the element that is used to open and close the accordion class */
+ .encabezado-titulo-clientes {
+     background: #88a5ab;
+     margin: 0 5px 0 5px;
+     color: #123c5d;
+     padding: 13px;
+     text-align: left;
+     margin: 0 auto !important;
+     border: 1px solid #000;
+     border-radius: 8px;
+     width: 98%;
+}
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+ .accordion.active, .accordion:hover {
+     background-color: transparent;
+}
+/* Unicode character for "plus" sign (+) */
+ .accordion:after {
+     content: url(../img/icons/down2-sm.png);
+     right: 0px !important;
+}
+/* Unicode character for "minus" sign (-) */
+ .accordion.active:after {
+     content: url(../img/icons/up-sm.png);
+}
+/* Style the element that is used for the panel class */
+ div.panel {
+     padding: 0 18px;
+     background-color: white;
+     max-height: 0;
+     overflow: hidden;
+     transition: 0.4s ease-in-out;
+     opacity: 0;
+     margin-bottom: 10px;
+     margin: 0 auto !important;
+     width: 100%;
+}
+ div.panel.show {
+     opacity: 1;
+     max-height: 100% !important;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+     margin-bottom: 10px !important;
+}
+ .contenedor-seguros {
+     padding: 5px;
+}
+ .iconos-asientos {
+     text-align: center;
+     margin-top: 20px;
+}
+ @media only screen and (max-width: 991px) {
+     .asiento-total {
+         background: #003a5d;
+         text-align: center;
+         color: #fff;
+         padding: 10px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+     #total2 {
+         font-size: 18px;
+         color: #fff;
+    }
+     #negritas2-vista3 {
+         font-weight: bold !important;
+         color: #fff;
+         font-size: 17px;
+    }
+     .btn-editar-2 {
+         width: 100%;
+    }
+}
+ @media only screen and (min-width: 991px) and (max-width: 1058px) {
+     #titulo-pasos {
+         font-size: 12px;
+    }
+     figure#reloj {
+         font-size: 12px;
+    }
+     #titulo-tiempo {
+         font-size: 12px;
+    }
+}
+ @media only screen and (max-width: 425px) {
+     .btn-regresar1 {
+         width: 100%;
+    }
+     .btn-continuar1 {
+         width: 100%;
+    }
+     #obligatorio-abordaje {
+         font-size: 12px;
+    }
+     #titulo-pasos {
+         font-size: 10px;
+    }
+     figure#reloj {
+         font-size: 10px;
+    }
+     #titulo-tiempo {
+         font-size: 10px;
+    }
+}
+/*****************************************************************TERMINO VISTA3*************************************************************- 
+/***************************************************************Estilos ERIK***************************************************************/
+ .contenedor-general-4 {
+     background: #eee;
+     margin-top: 10px;
+     padding-bottom: 10px;
+}
+ .header-pasos {
+     margin-right: 0;
+     margin-left: 0;
+}
+ #center {
+     color: #123c5d;
+}
+ .center {
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+}
+ .cabecera-sencillo {
+     background-color: #123c5d !important;
+     line-height: 2;
+     font-size: 14px;
+     border-radius: 8px !important;
+     text-align: center;
+}
+ .bg-primary {
+     background-color: #123c5d !important;
+     line-height: 2;
+     font-size: 14px;
+     border-radius: 8px 0 0 8px !important;
+     text-align: center;
+}
+ .cabecera-acceso3 {
+     background-color: #123c5d !important;
+     line-height: 2;
+     font-size: 14px;
+     border-radius: 0px 8px 8px 0px !important;
+}
+ @media only screen and (max-width: 767px) {
+     .bg-primary {
+         border-radius: 8px !important;
+    }
+     .cabecera-acceso3 {
+         border-radius: 8px !important;
+         margin-top: 10px;
+    }
+}
+ .bg-primary_tiempo {
+     background-color: #88a5ab !important;
+     border-radius: 0 8px 8px 0 !important;
+}
+ @media only screen and (max-width: 767px) {
+     .bg-primary_tiempo {
+         border-radius: 8px !important;
+         margin-top: 10px;
+    }
+}
+ #titulo-tiempo-4 {
+     margin-left: 2px;
+     line-height: 5;
+     font-size: 14px;
+     float: right;
+     margin-right: 2px;
+}
+ #titulo-pasos-4 {
+     line-height: 5;
+}
+ @media only screen and (max-width: 926px) {
+     #paso-reloj-4 span {
+         font-size: 10px !important;
+    }
+}
+ figure#reloj-4 {
+     font-size: 12px !important;
+     float: right;
+     margin-right: 10px !important;
+     margin-bottom: 0 !important;
+     line-height: 3;
+     font-size: 14px;
+}
+ .icono-reloj-4 {
+     width: 15px !important;
+     margin-top: -6px;
+    /*width: 30px;
+     margin-top: 1px;
+    */
+}
+ #paso-reloj-4 {
+     color: #fff !important;
+}
+ #titulo-tiempo-4 {
+     font-size: 12px !important;
+}
+ #reloj-4 {
+     float: right;
+     margin-right: 10px;
+}
+ .contenedor-collapse-4 {
+     color: #123c5d;
+     background: #fff !important;
+     font-size: 14px;
+     margin-top: 10px;
+     width: 100%;
+     border-radius: 8px !important;
+     padding: 2px !important;
+}
+ .pestaña-pagos1 {
+     width: 100%;
+}
+ .panel-pagos1 {
+     margin-top: 20px !important;
+}
+ .datos-vista4 {
+     text-align: left !important;
+}
+ #negritas-4 {
+     font-weight: bold !important;
+}
+ #img-up {
+     float: left;
+     width: 25px;
+}
+ .contenedor_img {
+     margin-top: 10px;
+}
+ .img-fluid {
+     padding-left: 10px;
+     padding-right: 5px;
+     margin-top: 10px;
+     width: 100%;
+}
+ h1.detalle-vista4 {
+     color: #fff;
+     font-weight: bolder;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 18px;
+     align-self: center;
+     margin-top: 10px;
+}
+/* Yoce facturación online*/
+ .contenido-facturación {
+     color: #fff;
+     font-size: 16px;
+}
+ .importante {
+     font-size: 22px;
+     font-weight: bold;
+}
+ .importante1 {
+     font-size: 20px;
+     color: #123c5d;
+     font-weight: 600;
+     text-align: left;
+}
+ .aviso-importante {
+     border-radius: 8px;
+}
+ #facturacion-dias {
+     background: #123c5d !important;
+     padding: 15px;
+     width: 100px;
+     float: left;
+     margin-right: 20px;
+}
+ .complete-datos {
+     display: block;
+     margin: 0 auto;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     width: 80%;
+     text-align: left;
+}
+/*fIN YOCE FACTURACIÓN ONLINE*/
+/* INICIO INGRESA NÚMERO DE FACTURACIÓN */
+ .btn-agregar-mas-operaciones {
+     color: #fff;
+     background: #123c5d;
+     margin: 0 auto;
+     width: 300px;
+     height: 48px;
+     font-size: 17px;
+     border: 8px !important;
+     border-radius: 8px;
+     line-height: inherit;
+     cursor: pointer;
+}
+ .RFC {
+     font-size: 18px;
+     margin-top: 20px;
+}
+ .coorreo-elec {
+     font-size: 18px;
+     margin-top: 20px;
+}
+/* FIN INGRESA NÚMERO DE FACTURACIÓN */
+/* YOZ CAPTURE DATOS Y DIRECCIÓN FISCAL */
+ .desplegable-facturacion {
+     background: #eee;
+     font-size: 14px;
+     line-height: 2.5;
+     display: block;
+     margin: 0 auto !important;
+     width: 100%;
+     padding: 0.375rem 1.75rem;
+     border: 2px solid #ced4da;
+     border-radius: 0.25rem;
+     text-align-last: left;
+     list-style: none;
+}
+ .desplegable-facturacion-1 {
+     list-style: none;
+}
+ .desplegable-motivo {
+     width: 100%;
+}
+ .btn-regresar {
+     color: #fff;
+     background: #123c5d;
+     margin: 0 auto;
+     width: 300PX;
+     height: 42px;
+     font-size: 17px;
+     border: 1px solid #123c5d;
+     line-height: inherit;
+     margin-top: 30px;
+}
+ .btn-continuar {
+     color: #fff;
+     background: #123c5d;
+     margin: 0 auto;
+     width: 300px;
+     height: 42px;
+     font-size: 17px;
+     border: 1px solid #123c5d;
+     line-height: inherit;
+     margin-top: 30px;
+}
+ .agencia-btn-continuar-agencia-vista8 {
+     text-align: center;
+}
+ .completar-datos {
+     font-size: 18px;
+     font-weight: 800;
+}
+ #información {
+     font-size: 18px;
+}
+ .datos-vista5 {
+     display: inline-block;
+     margin-bottom: .5rem;
+     margin-top: 8px;
+}
+/* FIN YOZ CAPTURE DATOS Y DIRECCIÓN FISCAL */
+/**/
+ .estatus-facturación {
+     font-size: 20px;
+}
+ #estatus-enviado-correo {
+     font-size: 22px;
+     text-align: center;
+}
+ #estatus-enviado {
+     font-size: 25px;
+     text-align: center;
+     font-weight: 700;
+}
+ .flecha-continuar {
+     float: right;
+}
+ .flecha-regreso {
+     float: left;
+}
+/**/
+ h6 {
+     font-size: 16px;
+}
+ th {
+     font-size: 16px;
+}
+ td {
+     font-size: 16px;
+}
+ .letra-centrada-vista4 {
+     text-align: center !important;
+}
+ p {
+     color: #123c5d;
+     font-weight: bold;
+     margin-bottom: .3em;
+}
+ p.total {
+     color: #123c5d;
+     font-weight: bold;
+     margin-bottom: .1em;
+     font-size: 27px;
+}
+ @media only screen and (max-width : 1024px) {
+     td.letra-centrada-vista4 {
+         text-align: left !important;
+    }
+}
+ table.width200, table.rwd_auto {
+     border: 0px solid #ccc;
+     width: 98%;
+     margin: 30px 0 23px 0;
+}
+ .width200 th, .rwd_auto th {
+     background: #eee;
+     padding: 5px;
+     text-align: left;
+}
+ .width200 td, .rwd_auto td {
+     border-bottom: 0px solid #ccc;
+     padding: 5px;
+     text-align: left 
+}
+ .width200 tr:last-child td, .rwd_auto tr:last-child td {
+     border: 0 
+}
+ .rwd {
+     width: 100%;
+     overflow: auto;
+}
+ .rwd table.rwd_auto {
+     width: auto;
+     min-width: 100% 
+}
+ .rwd_auto th, .rwd_auto td {
+     white-space: nowrap;
+}
+ @media only screen and (max-width: 760px), (min-width: 760px) and (max-width: 1024px) {
+     table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr {
+         display: block;
+    }
+     .width200 thead tr {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+     .width200 tr {
+         border: 1px solid #ccc;
+    }
+     .width200 td {
+         border: none;
+         border-bottom: 1px solid #ccc;
+         position: relative;
+         padding-left: 50%;
+         text-align: left 
+    }
+     .width200 td:before {
+         position: absolute;
+         top: 6px;
+         left: 6px;
+         width: 45%;
+         padding-right: 10px;
+         white-space: nowrap;
+    }
+     .vista4 td:nth-of-type(1):before {
+         content: "NOMBRE DEL PASAJERO";
+    }
+     .vista4 td:nth-of-type(2):before {
+         content: "PASAJERO";
+    }
+     .vista4 td:nth-of-type(3):before {
+         content: "ASIENTO";
+    }
+     .vista4 td:nth-of-type(4):before {
+         content: "PRECIO";
+    }
+     .vista4 td:nth-of-type(5):before {
+         content: "IVA";
+    }
+     .vista4 td:nth-of-type(6):before {
+         content: "DESCUENTO";
+    }
+     .vista4 td:nth-of-type(7):before {
+         content: "TOTAL";
+    }
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-width : 320px) and (max-width : 480px) {
+     .descarto {
+         display: none;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+ @media only screen and (min-width: 760px) and (max-width: 1024px) {
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+ @media only screen and (max-width: 760px), (max-width: 1024px) and (min-width: 760px) {
+     .width200 td {
+         padding-left: 60%;
+    }
+}
+ @media screen and (max-width: 1200px) {
+     h6 {
+         font-size: 14px;
+    }
+}
+ @media screen and (max-width: 994px) {
+     h6 {
+         font-size: 11px;
+    }
+}
+ @media screen and (max-width: 993px) {
+     th {
+         font-size: 11px !important;
+    }
+     td {
+         font-size: 11px !important;
+    }
+}
+ .card-header-1 {
+     margin-top: 10px;
+     width: 100%;
+}
+ .card-header-2 {
+     border-radius: 8px !important;
+}
+ h4 {
+     color: #123c5d;
+     font-size: 17px;
+     font-weight: bold;
+}
+ th {
+     font-size: 16px;
+}
+ td {
+     font-size: 16px;
+}
+ .contenedor-fluid-pagos {
+     background: #fff;
+     border-radius: 8px;
+}
+ .contenedor-fluid-elija-tu-forma-de-pago {
+     color: #123c5d;
+     background: #fff !important;
+     font-size: 14px;
+     margin-top: 10px;
+     width: 99%;
+     margin-left: 10px;
+     margin-right: 43px;
+     border-radius: 8px !important;
+     padding: 0 10px !important;
+}
+ .titulo-pagos {
+     background: #fff;
+     padding: 12px;
+     border-radius: 8px;
+}
+ .titulo-tarjetas {
+     margin-left: 0 !important;
+     margin-right: 0 !important;
+}
+ .contenedor-pagos {
+     background: #fff;
+     border-radius: 8px !important;
+     padding: 10px !important;
+}
+ .card-body-total {
+     padding: 21px;
+}
+ #accordion {
+     padding: 1spx;
+}
+ .card {
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 1px solid rgba(0,0,0,.125);
+}
+ img.iconos-pago {
+     width: 65px;
+}
+ @media screen and (max-width: 690px) {
+     img.iconos-pago {
+         width: 60px;
+    }
+}
+ @media screen and (max-width: 645px) {
+     img.iconos-pago {
+         width: 55px;
+    }
+}
+ @media screen and (max-width: 460px) {
+     img.iconos-pago {
+         width: 50px;
+    }
+}
+ @media screen and (max-width: 425px) {
+     img.iconos-pago {
+         width: 48px;
+    }
+}
+ @media screen and (max-width: 415px) {
+     img.iconos-pago {
+         width: 48px;
+    }
+}
+ @media screen and (max-width: 410px) {
+     img.iconos-pago {
+         width: 40px;
+    }
+}
+ @media screen and (max-width: 370px) {
+     img.iconos-pago {
+         width: 35px;
+    }
+}
+ @media screen and (max-width: 365px) {
+     img.iconos-pago {
+         width: 35px;
+    }
+}
+ @media screen and (max-width: 321px) {
+     img.iconos-pago {
+         width: 31px;
+    }
+}
+/*pasarela de pagos*/
+ .cc-selector input {
+     margin: 0;
+     padding: 0;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+}
+ .visamaster {
+     background-image: url(../img/pasarela-pagos/visa-master.png);
+}
+ .amex {
+     background-image: url(../img/pasarela-pagos/amex.png);
+}
+ .transfer {
+     background-image: url(../img/pasarela-pagos/transfer.png);
+}
+ .paynet {
+     background-image: url(../img/pasarela-pagos/paynet.png);
+}
+ .citibanamex {
+     background-image: url(../img/pasarela-pagos/citibanamex.png);
+}
+ .walmart {
+     background-image: url(../img/pasarela-pagos/walmart.png);
+}
+ .viajamas {
+     background-image: url(../img/pasarela-pagos/viajamas.png);
+}
+ .recompensas {
+     background-image: url(../img/pasarela-pagos/recompensas.png);
+}
+ .scotia {
+     background-image: url(../img/pasarela-pagos/scotia-rewards.png);
+}
+ .paypal {
+     background-image: url(../img/pasarela-pagos/paypal.png);
+}
+ .mercadopago {
+     background-image: url(../img/pasarela-pagos/mercado-pago.png);
+}
+ .cc-selector input:active + .drinkcard-cc {
+     opacity: .9;
+}
+ .cc-selector input:checked + .drinkcard-cc {
+     -webkit-filter: none;
+     -moz-filter: none;
+     filter: none;
+}
+ .drinkcard-cc {
+     cursor: pointer;
+     background-size: contain;
+     background-repeat: no-repeat;
+     display: inline-block;
+     width: 140px;
+     height: 60px;
+     -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+     transition: all 100ms ease-in;
+     -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+     -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+     filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+ .tienda-sucursal {
+     width: 130px !important;
+     height: 100px !important;
+}
+ .btn-popover-pagos {
+     background: transparent !important;
+     margin-bottom: 10px;
+     font-size: 14px;
+     color: #123c5d;
+     border: 1px solid #eee;
+}
+ .btn-popover-pagos:hover {
+     color: #123c5d;
+}
+ .drinkcard-cc:hover {
+     -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+     -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+     filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+/*pasarela de pagos*/
+ .pagos-contenido {
+     margin-top: 34px;
+}
+ .elemento-pago {
+     text-align: center;
+}
+ .boton-regresar-4 {
+     text-align: center;
+}
+ .btn-regresar-pagos {
+     color: #ffff;
+     background: #123c5d;
+     margin-top: 30px;
+     width: 300px;
+     height: 42px;
+}
+ @media only screen and (max-width: 370px) {
+     .boton-regresar {
+         text-align: center;
+         margin-left: -2%;
+    }
+}
+ @media only screen and (max-width: 345px) {
+     .boton-regresar {
+         text-align: center;
+         margin-left: -2%;
+    }
+}
+ @media only screen and (max-width: 330px) {
+     .boton-regresar {
+         text-align: center;
+         margin-left: -5%;
+    }
+}
+ @media only screen and (max-width: 321px) {
+     .boton-regresar {
+         text-align: center;
+         margin-left: -7%;
+    }
+}
+/* Estilos Erik*/
+/**************************************** ESTILOS DE MOSTRAR / OCULTAR ********************************/
+ .contenedor-down-up {
+     float: right;
+     top: -21px;
+     position: relative;
+     right: 10px;
+}
+ .down-up {
+     background-image: url(../img/icons/up.png);
+}
+ .accordion {
+     cursor: pointer;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: inline-block;
+     -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+     transition: all 100ms ease-in;
+}
+/* Style the element that is used to open and close the accordion class */
+ .encabezado-corridas {
+     background-color: #fff;
+     color: #444;
+     padding: 5px;
+     text-align: left;
+     margin: 0 auto !important;
+     border-radius: 8px;
+     margin-top: 10px !important;
+}
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Unicode character for "plus" sign (+) */
+ .accordion:after {
+     content: url(../img/icons/down2-sm.png);
+     right: 0px !important;
+}
+/* Unicode character for "minus" sign (-) */
+ .accordion.active:after {
+     content: url(../img/icons/up-sm.png);
+}
+ .contenedor-opciones-pagos {
+     background: #fff !important;
+     margin-top: 10px !important;
+     border-radius: 8px;
+}
+ .accordion-pagos {
+     top: 0px !important;
+     padding: 12px 4px;
+}
+/* Unicode character for "plus" sign (+) */
+ .accordion-pagos:after {
+     content: url(../img/icons/down2-sm.png) !important;
+     margin-left: 900px !important;
+     margin-top: -20px !important;
+     float: right !important;
+}
+/* Unicode character for "minus" sign (-) */
+ .accordion-pagos.active:after {
+     content: url(../img/icons/up-sm.png) !important;
+     margin-left: 900px !important;
+     margin-top: -20px !important;
+     float: right !important;
+}
+/* Style the element that is used for the panel class */
+ div.panel {
+     padding: 0 18px;
+     background-color: white;
+     max-height: 0;
+     overflow: hidden;
+     transition: 0.4s ease-in-out;
+     opacity: 0;
+     margin-bottom: 10px;
+     margin: 0 auto !important;
+     width: 100%;
+}
+ div.panel.show {
+     opacity: 1;
+     max-height: 100% !important;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+     margin-bottom: 30px !important;
+}
+ @media only screen and (max-width : 991px) {
+     .precios-total {
+         margin-top: 10px;
+    }
+}
+ .btn-continuar-abierto {
+     color: #fff;
+     background: #123c5d;
+     margin: 0 auto;
+     width: 300px;
+     height: 48px;
+     font-size: 17px;
+     border: 1px solid #123c5d;
+     line-height: inherit;
+}
+ .btn-continuar-pagos {
+     color: #fff;
+     background: #123c5d;
+     margin: 0 auto;
+     width: 300px;
+     height: 48px;
+     font-size: 17px;
+     border: 1px solid #123c5d;
+     line-height: inherit;
+}
+ #dvOcultar {
+     display: none;
+}
+ .check-datos {
+     top: 4px !important;
+}
+ .bg-logueado {
+     background-color: #123c5d !important;
+     line-height: 2;
+     font-size: 14px;
+     border-radius: 8px 8px 0 0px !important;
+     text-align: center;
+}
+/****************************************************************FIN ERIC******************************************************************/
+ .cabecera-titulo-servicios {
+     background-color: #123c5d !important;
+     line-height: 2;
+     font-size: 14px;
+     border-radius: 8px;
+     text-align: center;
+}
+ .cabecera-titulo-servicios-2 {
+     background-color: #123c5d !important;
+     font-size: 14px;
+     border-radius: 8px;
+     text-align: center;
+}
+ #bienvenidos {
+     color: #fff;
+     font-size: 16px;
+}
+ .cabecera-subtitulo-servicios {
+     background: #88a5ab !important;
+     margin-top: 10px;
+     color: #fff !important;
+     font-size: 13px;
+     font-weight: bolder;
+     overflow: hidden;
+     border-radius: 8px;
+     text-align: center;
+     padding-bottom: 10px;
+     padding-top: 10px;
+}
+ .contenedor-servicios {
+     background: #fff;
+     border-radius: 0 0 8px 8px;
+     padding-bottom: 10px;
+     height: auto;
+     text-align: center;
+}
+ .contenedor-servicios-2 {
+     background: #fff;
+     border-radius: 0 0 8px 8px;
+     margin-top: 10px;
+     padding-top: 5px;
+     height: auto;
+     text-align: center;
+}
+ .campo-combo {
+     margin: 0 auto;
+     width: 90%;
+}
+ .content-continuar-servicios {
+     text-align: center;
+}
+ p.datos-uba {
+     margin-left: 50px;
+     font-size: 18px;
+}
+ .gj-datepicker {
+     height: 48px !important;
+}
+ .gj-datepicker-bootstrap [role=right-icon] button {
+     background: #fff !important;
+     color: #003a5d !important;
+}
+ .gj-datepicker-bootstrap [role=right-icon] button:hover {
+     background: #fff !important;
+     color: #003a5d !important;
+}
+ .btn-tooltip {
+     padding: 1px 6px;
+     font-size: 10px !important;
+     border: .1em solid #123c5d;
+     border-radius: 1em;
+}
+ .gj-datepicker-bootstrap [role=right-icon] button .gj-icon, .gj-datepicker-bootstrap [role=right-icon] button .material-icons {
+     top: 15px !important;
+}
+ .btn-continuar-1 {
+     text-align: center;
+}
+/************************** ESTILOS TABLA ESTATUS DE FACTURACIÓN ************************************/
+ table.width200-1, table.rwd_auto {
+     border: 0px solid #ccc;
+     width: 98%;
+     margin-left: 10px;
+}
+ .width200-1 th, .rwd_auto th {
+     background: #eee;
+     padding: 5px;
+     text-align: left;
+     color: #123c5d;
+     border-radius: .8px .8px .8px .8px !important 
+}
+ .width200-1 td, .rwd_auto td {
+     border-bottom: 0px solid #ccc;
+     padding: 5px;
+     text-align: left 
+}
+ .width200-1 tr:last-child td, .rwd_auto tr:last-child td {
+     border: 0 
+}
+ .rwd {
+     width: 100%;
+     overflow: auto;
+}
+ .rwd table.rwd_auto {
+     width: auto;
+     min-width: 100% 
+}
+ .rwd_auto th, .rwd_auto td {
+     white-space: nowrap;
+}
+ @media only screen and (max-width: 760px), (min-width: 760px) and (max-width: 1024px) {
+     table.width200-1, .width200-1 thead, .width200-1 tbody, .width200-1 th, .width200-1 td, .width200-1 tr {
+         display: block;
+    }
+     .width200-1 thead tr {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+     .width200-1 tr {
+         border: 1px solid #ccc;
+    }
+     .width200-1 td {
+         border: none;
+         border-bottom: 1px solid #ccc;
+         position: relative;
+         padding-left: 50%;
+         text-align: left !important 
+    }
+     .width200-1 td:before {
+         position: absolute;
+         top: 6px;
+         left: 6px;
+         width: 45%;
+         padding-right: 10px;
+         white-space: nowrap;
+    }
+     .width200-1 td:nth-of-type(1):before {
+         content: "SERIE";
+    }
+     .width200-1 td:nth-of-type(2):before {
+         content: "FOLIO";
+    }
+     .width200-1 td:nth-of-type(3):before {
+         content: "FECHA";
+    }
+     .width200-1 td:nth-of-type(4):before {
+         content: "EMPRESA";
+    }
+     .width200-1 td:nth-of-type(5):before {
+         content: "IMPRIME";
+    }
+     .width200-1 td:nth-of-type(6):before {
+         content: "ENVIA";
+    }
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-width : 320px) and (max-width : 480px) {
+     .descarto {
+         display: none;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+ @media only screen and (min-width: 760px) and (max-width: 1024px) {
+     .descarto {
+         display: none;
+    }
+     .fontsize {
+         font-size: 10px 
+    }
+}
+ .imprime {
+     background: #eee;
+}
+ .envia {
+     background: #eee;
+}
+ .pagination {
+     display: inline-block;
+}
+/* .pagination a {
+     color: black;
+     float: left;
+     padding: 8px 16px;
+     text-decoration: none;
+     transition: background-color .3s;
+     border: 1px solid #ddd;
+}
+ .pagination a.active {
+     background-color: #4CAF50;
+     color: white;
+     border: 1px solid #4CAF50;
+}
+ .pagination a:hover:not(.active) {
+     background-color: #ccc;
+}
+ */
+ .pagination > li > a, .pagination > li > span {
+     position: relative;
+     float: left;
+     padding: 8px 16px;
+     margin-left: -1px;
+     line-height: 1.42857143;
+     color: #000 !important;
+     color: #337ab7;
+     text-decoration: none;
+     background-color: #fff;
+     border: 1px solid #ddd;
+}
+ .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+     z-index: 3;
+     color: #fff;
+     cursor: default;
+     background-color: #eee !important;
+     border-color: #008BD2 !important;
+}
+/* .page-item.active .page-link {
+     z-index: 1;
+     color: #fff;
+     background-color: #123c5d;
+     border-color: #123c5d;
+}
+ .page-link {
+     position: relative;
+     display: block;
+     padding: 0.5rem 0.75rem;
+     margin-left: -1px;
+     line-height: 1.25;
+     color: #123c5d;
+     background-color: #fff;
+     border: 1px solid #dee2e6;
+}
+ .page-item:last-child .page-link {
+     border-top-right-radius: 0.25rem;
+     border-bottom-right-radius: 0.25rem;
+     color: #fff !important;
+     background-color: #7ba7ae !important;
+     border-color: #7ba7ae !important;
+}
+ .page-item:first-child .page-link {
+     margin-left: 0;
+     border-top-left-radius: 0.25rem;
+     border-bottom-left-radius: 0.25rem;
+     color: #fff !important;
+     background-color: #7ba7ae !important;
+     border-color: #7ba7ae !important;
+}
+ */
+ #status {
+     font-size: 18px;
+}
+/********* ESTILOS TABLA DATOS ************/
+ .ingresar-operacion {
+     padding: 10px;
+     border: 4px solid #123c5d;
+     border-radius: 8px;
+}
+/********* FIN ESTILOS TABLA DATOS ************/
+ .padeo-left {
+     padding-left: 50px;
+     cursor:pointer;
+}

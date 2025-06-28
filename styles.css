@@ -1,0 +1,744 @@
+html {
+    background-color: #003b5c;
+}
+
+body {
+    background-color: #003b5c;
+}
+
+#menu {
+    padding: 0;
+    background-color: #fff;
+}
+
+#menu .container-fluid {
+    background-color: #fff;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.navbar-brand {
+    padding-left: 5rem !important;
+}
+
+.nav-item {
+    padding: 0 30px !important;
+}
+
+.menu-desktop {
+    float: right;
+
+}
+
+.icons-header {
+    font-size: 20px;
+    color: #003b5c;
+
+}
+
+.link-header {
+    color: #003b5c !important;
+    font-size: 1rem;
+}
+
+
+/* nav.menu-desktop > div.container-fluid > div.collapse{
+    width: 260px;
+    display: block;
+    position: absolute;
+    z-index: 3000;
+    right: 0;
+    background-color: #000;
+    margin-top: 50px;
+} */
+
+.colapso {
+    background: #eee;
+    color: #fff !important;
+    text-align: right !important;
+    margin-top: 60px;
+    position: absolute;
+    text-align: left !important;
+    right: 0 !important;
+    z-index: 3000;
+    width: 360px;
+    top: 0;
+}
+
+.option-menu-desktop:hover {
+    background-color: #30b0c7;
+    color: #fff;
+}
+
+.option-menu-desktop a.nav-link:hover {
+    background-color: #30b0c7;
+    color: #fff !important;
+}
+
+.option-menu-desktop {
+    padding: 0.25rem 1.5rem;
+    width: 100%;
+}
+
+.menu-lg {
+    border: 0;
+    background-color: transparent;
+}
+
+.widget {
+    background-color: #fff;
+}
+
+.comunicacion {
+    background-color: #e3e4e7;
+}
+
+.servicios {
+    background-image: url(../img/pleca-servicio.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0;
+    width: 100%;
+}
+
+.nuestros-servicios {
+    display: none;
+}
+
+.banner-servicio {
+    width: 100%;
+}
+
+/* .pleca-servicios{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    height: 170px;
+    top: 800px;
+} */
+
+footer nav div ul {
+    background-color: #003b5c;
+}
+
+footer nav div ul li a {
+    color: #fff !important;
+    text-align: center;
+}
+
+footer div a {
+    color: #fff !important;
+}
+
+section div div ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #003b5c;
+}
+
+@media only screen and (min-width: 992px) {
+    .oculto {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .menu-desktop {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .servicios {
+        background-image: none;
+    }
+
+    .nuestros-servicios {
+        display: block;
+        background-color: #30b0c7;
+        color: #fff;
+        vertical-align: middle;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+/**************Turismo************/
+.whatsapp {
+    width: 30px;
+}
+
+.btn-enviar {
+    width: 20%;
+    background-color: #003b5c;
+    color: #fff;
+    border: 1px solid #003b5c;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #fff;
+    color: #003b5c;
+}
+
+.separador {
+    padding: 10px;
+    color: #003b5c;
+    background-color: #003b5c;
+}
+
+/*********Facturación********/
+.bg-facturacion {
+    background-color: #30b0c7;
+    color: #fff;
+}
+
+.bg-ingresar-datos {
+    background-color: #003b5c;
+    color: #fff;
+}
+
+.section-facturacion {
+    border: 2px solid #30b0c7;
+}
+
+.ingresar-datos {
+    border: 2px solid #003b5c;
+}
+
+.btn-consultar {
+    width: 100%;
+    background-color: #30b0c7;
+    color: #003b5c;
+    border: 1px solid #30b0c7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-consultar:hover {
+    background-color: #003b5c;
+    color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+    .btn-consultar {
+        width: 100%;
+    }
+}
+
+.combo {
+    width: 100%;
+    /* position: absolute; */
+    z-index: 200;
+}
+
+.carousel {
+    /* margin-top: 75px; */
+}
+
+/**************************ESTILOS COMBO****************************/
+.input-group-append {
+    cursor: pointer;
+  }
+
+body {
+    font-size: 14px !important;
+    font-family: "lato-regular" !important;
+    background: transparent !important;
+
+}
+
+@font-face {
+    font-family: 'lato-regular';
+    src: url('fonts/Lato-Regular.ttf');
+}
+
+
+section.fondo {
+    background: #003a5d !important;
+    border: 0px solid #000;
+    height: auto;
+    /* position: absolute; */
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    section.fondo {
+      
+        height: 350px;
+        
+    }
+
+}
+
+
+
+
+
+
+
+.nav-tabs {
+    border-bottom: 0px solid;
+}
+
+.tab-pane {
+    padding: 0 10px !important;
+}
+
+.nav-link {
+    display: block;
+    padding: .7rem 1rem;
+}
+
+.tabsetn {
+    padding: 0px;
+}
+
+a {
+    color: #003a5d;
+}
+
+.panel-der {
+    background: #003a5d;
+    height: 100px;
+}
+
+.form-control {
+    color: #003a5d !important;
+    font-size: 20px !important;
+}
+
+.btn-outline-secondary {
+    background: #fff;
+}
+
+#datepicker {
+    color: #003a5d !important;
+    background-color: #fff;
+    height: 55px;
+    border-radius: 5px;
+
+}
+
+.gj-datepicker-md [role=right-icon]{
+    padding-top: 18px;
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.gj-datepicker-bootstrap [role=right-icon] button {
+    background: #fff !important;
+    color: #003a5d !important;
+}
+
+.gj-datepicker-bootstrap [role=right-icon] button:hover {
+    background: #fff !important;
+    color: #003a5d !important;
+}
+
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #003a5d;
+    border: 2px solid #003a5d;
+}
+
+
+.nav-tabs .nav-link {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 2px solid #003a5d;
+    margin-top: 4px;
+}
+
+
+.nav-tabs .nav-link:hover {
+    color: #003a5d;
+    border: 2px solid #003a5d;
+}
+
+.gj-datepicker {
+    height: 55px !important;
+}
+
+
+
+.gj-datepicker-bootstrap [role=right-icon] button .gj-icon,
+.gj-datepicker-bootstrap [role=right-icon] button .material-icons {
+    top: 18px !important;
+}
+
+
+
+label {
+    color: #fff !important;
+}
+
+
+
+.fa-file-alt {
+    vertical-align: sub;
+    margin-left: 2%;
+}
+
+.boleto-ida {
+    text-align: center;
+}
+
+.switch-abierto {
+    text-align: center;
+}
+
+.boleto-abierto-etn {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.mod {
+    margin-top: 20px !important;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 0px;
+    margin: 0 auto !important;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    display: none;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #003a5d;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #7ba7ae !important;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #003a5d;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+
+select {
+    height: 55px !important;
+    font-size: 16px !important;
+}
+
+label.facture {
+    background-color: #7ba7ae !important;
+    color: #fff !important;
+    height: 40px;
+    margin-top: 22px;
+    padding: 5px 20px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: .25rem;
+}
+
+label.facture a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.btn-consultar {
+    margin-top: 20px;
+}
+
+
+
+
+
+.btn-dark {
+    color: #fff;
+    background-color: #4b859e !important;
+    border-color: #343a40;
+    height: 55px !important;
+    font-size: 20px;
+}
+
+
+input::-webkit-input-placeholder {
+    color: #212529 !important;
+}
+
+input:-moz-placeholder {
+    color: #212529 !important;
+}
+
+input:-ms-input-placeholder {
+    color: #212529 !important;
+}
+
+
+
+
+
+
+/* Combo Autobus + Hotel */
+
+.panel-paquetes {
+    padding: 5px !important;
+}
+
+
+label.paquetes {
+    background-color: #7ba7ae !important;
+    color: #fff !important;
+    height: 40px;
+    margin-top: 0px;
+    padding: 5px 20px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: .25rem;
+}
+
+label.paquetes a {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn-consultar-paquetes {
+    margin-top: 0px;
+}
+
+select.select-paquetes {
+    margin-bottom: .5rem;
+}
+
+.adulto {
+    float: left;
+    padding-left: 0 !important;
+}
+
+.menor {
+    float: right;
+    padding-right: 0 !important;
+}
+
+
+
+/* Combo Agencias */
+
+
+.panel-agencias {
+    padding: 0 !important;
+}
+
+.contenedor-agencias {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contenedor-agencias .dato-agencia {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.contenedor-agencias .input-agencias {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.entrar-agencia {
+    margin-top: 10px !important;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1080px) {
+    body {
+        font-size: 12px !important;
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 24px;
+
+    }
+
+
+
+    .slider:before {
+        height: 16px;
+        width: 16px;
+    }
+
+
+    label {
+        display: inline-block;
+        margin-bottom: 15px;
+        padding: 5px 0 !important;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+
+    .flex-column {
+        -webkit-box-orient: horizontal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: row !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    .panel-izq {
+        text-align: center !important;
+        display: inline-flex !important;
+        margin-bottom: 20px !important;
+        font-size: 10px !important;
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem .5rem;
+    }
+
+
+    .contenedor-agencias {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .panel-paquetes {
+        font-size: 12px !important;
+    }
+
+    label.paquetes a {
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .habitaciones {
+        margin-top: 10px;
+    }
+
+    .fecha-ida,
+    .fecha-regreso {
+        margin-top: 10px;
+    }
+
+    .tab-content {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 418px) {
+
+    label#titulo-abierto {
+        margin-top: 22px;
+        margin-bottom: 0px;
+    }
+
+    .switch {
+        top: 0px;
+        margin: 0 auto !important;
+
+    }
+
+
+    .boletos {
+        width: 100%;
+    }
+
+    .hotel {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+    .agencias {
+        width: 50%;
+    }
+
+
+}
